@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import bulksms1 from "../assets/Images/bulksms1.png";
 import bulksms2 from "../assets/Images/bulksms2.png";
 import bulksms3 from "../assets/Images/bulksms3.png";
-import Bulksms4 from "../assets/Images/bulksms4.png";
+import bulksms4 from "../assets/Images/bulksms4.png";
 import bulksms5 from "../assets/Images/bulksms5.png";
 import bulksms6 from "../assets/Images/bulksms6.png";
 import bulksms7 from "../assets/Images/bulksms7.png";
