@@ -92,89 +92,67 @@ const Clients = () => {
         </div>
 
         {/* LOGO SLIDER */}
-        <div className="mt-16 relative z-20">
-          <Swiper
-            modules={[Autoplay]}
-            slidesPerView={2}
-            spaceBetween={40}
-            loop={true}
-            speed={3500}
-            autoplay={{
-              delay: 0,
-              disableOnInteraction: false,
-            }}
-            breakpoints={{
-              640: {
-                slidesPerView: 3,
-              },
-              768: {
-                slidesPerView: 4,
-              },
-              1024: {
-                slidesPerView: 5,
-              },
-            }}
-          >
-            {logos.map((logo, index) => (
-              <SwiperSlide key={index}>
-                <div className="flex items-center justify-center h-[150px]">
-                  <img
-                    src={logo}
-                    alt={`client-${index + 1}`}
-                    className="max-h-22 object-contain opacity-90 hover:opacity-100 transition duration-500"
-                  />
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
+        <div className="mt-6 relative">
+          {/* ambient glow behind the panel */}
+          <div className="absolute -inset-6 bg-gradient-to-r from-[#294d8f]/5 via-transparent to-[#307eba]/5 blur-sm pointer-events-none rounded-[1rem] z-10" />
 
-        {/* MAIN HEADING */}
-        <div className="text-center mt-24 px-2 relative z-20">
-          <h2 className="text-[34px] md:text-[68px] font-bold text-[#307eba] leading-tight">
-            Engage your Customers with Smart Conversations
-          </h2>
+          <div className="relative bg-white/80 backdrop-blur-sm  rounded-[2rem] sm:rounded-[2.5rem] px-2 sm:px-6 py-6 sm:py-8 overflow-hidden z-20">
 
-          <p className="mt-8 text-[22px] md:text-[40px] text-[#7a7895] font-light leading-relaxed">
-            One Platform, Millions of Conversations,
-            Endless Possibilities!
-          </p>
-        </div>
+            {/* edge fade masks */}
+            <div className="absolute left-0 top-0 h-full w-14 sm:w-28 bg-gradient-to-r from-white via-white/90 to-transparent z-10 pointer-events-none" />
+            <div className="absolute right-0 top-0 h-full w-14 sm:w-28 bg-gradient-to-l from-white via-white/90 to-transparent z-10 pointer-events-none" />
 
-        {/* STATS */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-24 relative z-20">
-          {stats.map((item, index) => (
-            <div
-              key={index}
-              className="relative pl-8"
+            <Swiper
+              modules={[Autoplay]}
+              slidesPerView={2}
+              spaceBetween={24}
+              loop={true}
+              speed={3500}
+              autoplay={{
+                delay: 0,
+                disableOnInteraction: false,
+              }}
+              breakpoints={{
+                480: {
+                  slidesPerView: 3,
+                  spaceBetween: 24,
+                },
+                768: {
+                  slidesPerView: 4,
+                  spaceBetween: 32,
+                },
+                1024: {
+                  slidesPerView: 5,
+                  spaceBetween: 36,
+                },
+              }}
             >
-              {/* GREEN LINE */}
-              <div className="absolute left-0 top-2 h-16 w-[2px] bg-[#177a63]"></div>
-
-              <h3 className="text-4xl md:text-6xl font-semibold text-black">
-                {item.number}
-              </h3>
-
-              <p className="mt-4 text-[#7a7895] text-lg md:text-xl">
-                {item.title}
-              </p>
-            </div>
-          ))}
+              {logos.map((logo, index) => (
+                <SwiperSlide key={index}>
+                  <div className="flex items-center justify-center h-[130px] sm:h-[140px]">
+                    <div className="group relative w-full h-[120px] sm:h-[135px] rounded-xl p-[1.5px] bg-gradient-to-br from-gray-100 to-gray-100 hover:from-[#294d8f]/40 hover:to-[#307eba]/80 transition-colors duration-500">
+                      <div className="relative flex items-center justify-center w-full h-full bg-white rounded-[14px]  group-hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+                        {/* shimmer sweep on hover */}
+                        <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out bg-gradient-to-r from-transparent via-white/70 to-transparent skew-x-12 pointer-events-none" />
+                        <img
+                          src={logo}
+                          alt={`client-${index + 1}`}
+                          className="relative max-h-28 sm:max-h-28 object-contain grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
         </div>
 
-        {/* VIDEO SECTION */}
-        <div className="mt-25 relative z-20">
-          {/* <div className="text-center mb-12">
-        <h2 className="text-4xl md:text-5xl font-bold text-[#177a63]">
-          Watch Our Platform in Action
-        </h2>
 
-        <p className="mt-5 text-[#7a7895] text-lg md:text-2xl">
-          Smart Communication Solutions for Modern Businesses
-        </p>
-      </div> */}
 
-          <section className="max-w-7xl mx-auo px-4 md:px-0  py-16">
+        <div className="mt-5 relative z-20">
+
+          <section className="max-w-7xl mx-auo px-4 md:px-0  py-6">
             <div className="grid lg:grid-cols-2 gap-10 items-center">
 
               <div className="mt-8 grid gap-5">
