@@ -404,7 +404,7 @@ export default function BulkSms() {
                     {/* RIGHT SIDE IMAGE */}
                     <div className="w-full">
                         <img
-                            src={BulkSms1}
+                            src={bulksms1}
                             alt="Bulk SMS Platform"
                             className="w-full h-auto object-cover rounded-2xl"
                         />
