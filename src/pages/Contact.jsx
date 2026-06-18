@@ -12,6 +12,8 @@ import riya from "../assets/Images/riya.avif";
 import sahil1 from "../assets/Images/sahil1.jpeg";
 import ramzan from "../assets/Images/ramzan.jpeg";
 import BookMeeting from "./Bookmeeting";
+import saba from "../assets/Images/saba.avif";
+
 
 // Sales executives data - using contact images
 const executives = [
@@ -20,6 +22,8 @@ const executives = [
   { name: "Sakshi", img: sakshi },
   { name: "Riya", img: riya },
   { name: "Ramzan", img: ramzan },
+  { name: "Saba", img: saba },
+
 ];
 
 const products = [

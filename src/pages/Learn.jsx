@@ -18,6 +18,8 @@ import learndown from "../assets/Images/learndown.png";
 import ins from "../assets/Images/ins.png";
 import partner from "../assets/Images/partner.png";
 import api from "../assets/Images/api.png";
+import extra1 from "../assets/Images/extra1.png";
+import extra2 from "../assets/Images/extra2.png";
 
 
 
@@ -136,7 +138,7 @@ export default function Learn() {
 
     return (
         <>
-            <section className="bg-[#ffffff] py-24 overflow-hidden">
+            <section className="bg-[#ffffff] py-0 overflow-hidden">
                 <div className="max-w-7xl mx-auto px-4">
 
                     {/* TOP TAG */}
@@ -210,7 +212,7 @@ export default function Learn() {
             </section>
 
             {/* LEARN DOWN SECTION */}
-            <div className=" m-20 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className=" m-15 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
                 {/* LEFT IMAGE */}
                 <div className="relative">
@@ -257,6 +259,103 @@ export default function Learn() {
 
 
 
+
+            <section className="bg-white py-11 lg:py-8">
+                <div className="max-w-8xl mx-auto px-2 lg:px-8">
+
+                    {/* Heading */}
+                    <div className="text-center max-w-5xl mx-auto mb-2">
+                        <span className="inline-block bg-[#e7effa] text-[#5497cb] px-4 py-1 rounded-sm text-sm font-semibold uppercase tracking-wide mb-6">
+                            Omnichannel Customer Engagement
+                        </span>
+
+                        <h2 className="text-4xl md:text-4xl lg:text-5xl font-semibold text-[#0f172a] leading-tight mb-3">
+                            Connect, Engage & Convert Customers Across Every Channel
+                        </h2>
+
+                        <p className="mb-5 md:text-[17px] text-gray-600 leading-relaxed">
+                            Deliver seamless customer experiences through WhatsApp, SMS, RCS,
+                            Email and Voice. Manage conversations, automate campaigns, track
+                            engagement, and grow your business from one unified platform.
+                        </p>
+                    </div>
+
+                    {/* Image */}
+                    <div className="flex justify-center">
+                        <img
+                            src={extra1}
+                            alt="Omnichannel Communication Platform"
+                            className="w-full max-w-7xl object-contain rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.12)]"
+                        />
+                    </div>
+
+                </div>
+            </section>
+
+
+
+            <section className="bg-white py-20 lg:py-28 overflow-hidden">
+                <div className="max-w-7xl mx-auto px-6 lg:px-8">
+                    <div className="grid lg:grid-cols-2 gap-16 items-center">
+
+                        {/* Left Content */}
+                        <div>
+                            {/* Badge */}
+                            <div className="inline-flex items-center gap-3 px-5 py-3 border border-gray-200 rounded-full mb-8">
+                                <svg
+                                    className="w-5 h-5 text-blue-400"
+                                    fill="currentColor"
+                                    viewBox="0 0 20 20"
+                                >
+                                    <path d="M10 2L18 5V9C18 14 14.8 17.8 10 19C5.2 17.8 2 14 2 9V5L10 2Z" />
+                                </svg>
+
+                                <span className="text-[16px] font-medium text-gray-800">
+                                    Integrations
+                                </span>
+                            </div>
+
+                            {/* Heading */}
+                            <h2 className="text-4xl md:text-5xl font-semibold text-[#111827] leading-tight mb-8">
+                                Seamlessly integrate with the tools you already love
+                            </h2>
+
+                            {/* Description */}
+                            <p className="text-[17px] text-gray-500 leading-relaxed mb-4 max-w-2xl">
+                                Unlock limitless collaboration possibilities with our powerful
+                                integration capabilities. Our APIs seamlessly connect with CRM
+                                systems, marketing automation platforms, and customer support
+                                applications. With pre-built connectors and SDKs, developers can
+                                quickly embed messaging and communication services into their
+                                applications.
+                            </p>
+
+                            {/* Button */}
+                            <Link
+                                to="/contact"
+                                className="inline-flex items-center justify-center px-7 py-3 bg-[#4785b1] hover:bg-[#29638c] text-white font-medium text-[16px] rounded-xl transition-all duration-300"
+                            >
+                                View All Integrations
+                            </Link>
+                        </div>
+
+                        {/* Right Image */}
+                        <div className="flex justify-center lg:justify-end">
+                            <img
+                                src={extra2}
+                                alt="Integrations"
+                                className="w-full max-w-[700px] object-contain"
+                            />
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
             {/* INTEGRATIONS SECTION */}
             <div className="w-full bg-blue-100 py-16 px-6 md:px-14">
 
@@ -269,7 +368,7 @@ export default function Learn() {
                         <img
                             src={ins}
                             alt="Integrations"
-                            className="relative z-10 w-full object-contain"
+                            className="relative z-10 w-full object-contain rounded-sm"
                         />
                     </div>
 

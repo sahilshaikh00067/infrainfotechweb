@@ -261,7 +261,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
           >
             {/* Header */}
             <div className="flex items-center justify-between px-5 h-16 border-b border-gray-100 shrink-0">
-              <img src="/logo.jpg" alt="Logo" className="h-8 w-auto object-contain" />
+              <img src="/logo.jpg" alt="Logo" className="h-9 w-auto object-contain" />
               <button
                 onClick={handleClose}
                 aria-label="Close menu"
