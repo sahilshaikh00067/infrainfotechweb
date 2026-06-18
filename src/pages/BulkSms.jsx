@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link } from "react-router-dom";
-import BulkSms1 from "../assets/Images/BulkSms1.png";
-import BulkSms2 from "../assets/Images/bulksms2.png";
-import BulkSms3 from "../assets/Images/bulksms3.png";
-import BulkSms4 from "../assets/Images/bulksms4.png";
-import BulkSms5 from "../assets/Images/bulksms5.png";
-import BulkSms6 from "../assets/Images/bulksms6.png";
+import bulksms1 from "../assets/Images/bulksms1.png";
+import bulksms2 from "../assets/Images/bulksms2.png";
+import bulksms3 from "../assets/Images/bulksms3.png";
+import Bulksms4 from "../assets/Images/bulksms4.png";
+import bulksms5 from "../assets/Images/bulksms5.png";
+import bulksms6 from "../assets/Images/bulksms6.png";
 import bulksms7 from "../assets/Images/bulksms7.png";
 import bulksms8 from "../assets/Images/bulksms8.png";
 import bulksms9 from "../assets/Images/bulksms9.png";
