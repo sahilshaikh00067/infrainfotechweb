@@ -129,7 +129,7 @@ export default function Chatbot() {
                         </h1>
                         <p className="text-gray-700 text-[17px] leading-relaxed mb-6">
                             Looking to automate customer conversations on WhatsApp for your business? Our WhatsApp Chatbot is the perfect solution.
-                            With GreenAds Global's no-code platform, you can build and launch a powerful WhatsApp Chatbot—within just 5 minutes.
+                            With Infra Infotech's no-code platform, you can build and launch a powerful WhatsApp Chatbot—within just 5 minutes.
                         </p>
                         <p className="text-gray-700 text-[19px] font-medium leading-relaxed mb-6">
                             ‍Start your free trial today and transform the way your business communicates.
@@ -277,7 +277,7 @@ export default function Chatbot() {
                             How to Build a WhatsApp Chatbot
                         </h2>
                         <p className="text-gray-600 text-[16px] leading-relaxed mb-6">
-                            At GreenAds Global, we make it easy for you to build a powerful WhatsApp Chatbot using
+                            At Infra Infotech, we make it easy for you to build a powerful WhatsApp Chatbot using
                             our no-code{" "}
                             <a href="#" className="underline underline-offset-2 hover:opacity-80" style={{ color: BTN_COLOR }}>
                                 Telinfy platform

@@ -639,7 +639,7 @@ export default function RCS() {
                         RCS Messaging – The best option for business communication
                     </h2>
                     <p className="text-gray-700 text-[14px] leading-relaxed max-w-5xl mx-auto mb-12">
-                        GreenAds Global, a leading RCS messaging provider, offers a versatile solution that works seamlessly
+                        Infra Infotech, a leading RCS messaging provider, offers a versatile solution that works seamlessly
                         across all networks and mobile devices. With its rich communication features, including multimedia
                         capabilities, robust security, and reliable delivery, businesses of all sizes can leverage this powerful
                         tool as an effective marketing strategy, enabling enhanced communication with customers.

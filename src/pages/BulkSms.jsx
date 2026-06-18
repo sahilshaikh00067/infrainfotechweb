@@ -254,7 +254,7 @@ It helps improve customer engagement, reduce no-shows, and deliver important inf
         question: "How can I get started with bulk SMS for my business?",
         answer: `Getting started is simple:
 
-1. Choose a trusted Bulk SMS provider like GreenAds Global.
+1. Choose a trusted Bulk SMS provider like Infra Infotech.
 2. Complete DLT registration.
 3. Recharge your account.
 4. Create approved templates.
@@ -335,7 +335,7 @@ Charges may change as per operator policies.`,
 
     {
         question: "Is SMS integration with my CRM or application possible?",
-        answer: `Yes. GreenAds Global provides SMS APIs that integrate easily with CRMs, websites, mobile applications, ERP systems, and custom software for automated messaging.`,
+        answer: `Yes. Infra Infotech provides SMS APIs that integrate easily with CRMs, websites, mobile applications, ERP systems, and custom software for automated messaging.`,
     },
 ];
 
