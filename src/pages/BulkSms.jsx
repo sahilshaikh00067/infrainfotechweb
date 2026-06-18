@@ -33,29 +33,24 @@ import FAQ from './FAQ';
 const solutions = [
     {
         title: "Promotional Messages",
-        image: BulkSms2,
+        image: bulksms2,
     },
     {
         title: "Authentication & Verification Messages",
-        image: BulkSms3,
+        image: bulksms3,
     },
     {
         title: "Transactional Messages",
-        image: BulkSms4,
+        image: bulksms4,
     },
     {
         title: "SMS Reminders",
-        image: BulkSms5,
+        image: bulksms5,
     },
     {
         title: "SMS Notifications",
-        image: BulkSms6,
+        image: bulksms6,
     },
-    // {
-    //     title: "RCS Messaging",
-    //     description: "Rich media and guided responses give an app-like experience, right in the user's SMS inbox.",
-    //     image: BulkSms7,
-    // },
 ];
 
 const features = [
