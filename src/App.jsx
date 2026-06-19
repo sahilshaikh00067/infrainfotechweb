@@ -15,12 +15,14 @@ import RCS from "./pages/RCS"
 import Voice from "./pages/Voice"
 import Chatbot from "./pages/Chatbot"
 import MultiChannelCampaigns from "./pages/MultiChannel"
+import LeadPopup from "./components/LeadPopup"
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <ScrollToTop />
+      <LeadPopup />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

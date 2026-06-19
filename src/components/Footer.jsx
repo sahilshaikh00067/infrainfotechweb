@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/Images/logo.jpg";
+import logo from "../assets/Images/logo.png";
 import google from "../assets/Images/google.png";
 import meta from "../assets/Images/meta.png";
 

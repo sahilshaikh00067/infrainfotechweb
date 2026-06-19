@@ -19,6 +19,8 @@ import {
   FaShoppingCart,
   FaCogs,
 } from "react-icons/fa"
+import logo from "../assets/Images/logo.png";
+
 
 /* ─────────────────────────────────────────────
    NAV DATA — shared between desktop mega menu
@@ -261,7 +263,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
           >
             {/* Header */}
             <div className="flex items-center justify-between px-5 h-16 border-b border-gray-100 shrink-0">
-              <img src="/logo.jpg" alt="Logo" className="h-9 w-auto object-contain" />
+              <img src={logo} alt="Logo" className="h-9 w-auto object-contain" />
               <button
                 onClick={handleClose}
                 aria-label="Close menu"
@@ -367,7 +369,7 @@ const Navbar = () => {
             <span className="hidden sm:inline">&nbsp;with Free Credits!</span>
           </span>
 
-          <Link to="/signup">
+          <Link to="/contact">
             <motion.button
               whileHover={{ scale: 1.06, boxShadow: "0 4px 20px rgba(0,0,0,0.2)" }}
               whileTap={{ scale: 0.97 }}
@@ -393,9 +395,9 @@ const Navbar = () => {
           {/* LOGO */}
           <Link to="/" className="shrink-0">
             <img
-              src="/logo.jpg"
+              src={logo}
               alt="Logo"
-              className="h-8 sm:h-10 w-auto object-contain"
+              className="h-12 sm:h-21 w-auto object-contain"
             />
           </Link>
 

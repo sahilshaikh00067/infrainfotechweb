@@ -51,9 +51,34 @@ export default function Contact() {
     setForm((prev) => ({ ...prev, [name]: type === "checkbox" ? checked : value }));
   };
 
-  const handleSubmit = (e) => {
+const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Message sent successfully!");
+
+    const whatsappMessage = `
+🔥 NEW CONTACT FORM LEAD
+
+👤 Name: ${form.firstName} ${form.lastName}
+
+📧 Email: ${form.email}
+
+📱 Phone: ${form.phone}
+
+🏢 Company: ${form.company}
+
+🌍 Country: ${form.country}
+
+📦 Product: ${form.product}
+
+📌 Reason: ${form.reason}
+
+💬 Message:
+${form.message}
+`;
+
+    window.open(
+      `https://wa.me/918381845350?text=${encodeURIComponent(whatsappMessage)}`,
+      "_blank"
+    );
   };
 
   return (
