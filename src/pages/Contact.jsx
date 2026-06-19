@@ -76,7 +76,7 @@ ${form.message}
 `;
 
     window.open(
-      `https://wa.me/918381845350?text=${encodeURIComponent(whatsappMessage)}`,
+      `https://wa.me/919004100213?text=${encodeURIComponent(whatsappMessage)}`,
       "_blank"
     );
   };
