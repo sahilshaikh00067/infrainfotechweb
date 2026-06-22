@@ -7,7 +7,7 @@ import contact2 from "../assets/Images/contact2.png";
 import contact3 from "../assets/Images/contact3.png";
 import contact4 from "../assets/Images/contact4.png";
 import mansi from "../assets/Images/mansi.webp";
-import sakshi from "../assets/Images/sakshi.avif";
+import kousen from "../assets/Images/kousen.jpeg";
 import riya from "../assets/Images/riya.avif";
 import sahil1 from "../assets/Images/sahil1.jpeg";
 import ramzan from "../assets/Images/ramzan.jpeg";
@@ -18,11 +18,11 @@ import saba from "../assets/Images/saba.avif";
 // Sales executives data - using contact images
 const executives = [
   { name: "Sahil", img: sahil1 },
-  { name: "Mansi", img: mansi },
-  { name: "Sakshi", img: sakshi },
-  { name: "Riya", img: riya },
+  { name: "Faraah", img: mansi },
+  { name: "Kousen", img: sakshi },
+  { name: "Aayesha", img: riya },
   { name: "Ramzan", img: ramzan },
-  { name: "Saba", img: saba },
+  { name: "Siba", img: saba },
 
 ];
 
