@@ -19,7 +19,7 @@ import saba from "../assets/Images/saba.avif";
 const executives = [
   { name: "Sahil", img: sahil1 },
   { name: "Faraah", img: mansi },
-  { name: "Kousen", img: sakshi },
+  { name: "Kousen", img: kousen },
   { name: "Aayesha", img: riya },
   { name: "Ramzan", img: ramzan },
   { name: "Siba", img: saba },
