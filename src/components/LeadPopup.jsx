@@ -18,7 +18,7 @@ const LeadPopup = () => {
         if (!popupClosed) {
             const timer = setTimeout(() => {
                 setShowPopup(true);
-            }, 10000);
+            }, 30000);
 
             return () => clearTimeout(timer);
         }
