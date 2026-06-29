@@ -20,6 +20,7 @@ import partner from "../assets/Images/partner.png";
 import api from "../assets/Images/api.png";
 import extra1 from "../assets/Images/extra1.png";
 import extra2 from "../assets/Images/extra2.png";
+import Carousel from "./Carousel";
 
 
 
@@ -573,6 +574,7 @@ export default function Learn() {
 
                 </div>
             </section>
+            <Carousel />
 
         </>
     );
