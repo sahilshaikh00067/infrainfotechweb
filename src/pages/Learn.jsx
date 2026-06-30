@@ -352,6 +352,7 @@ export default function Learn() {
                     </div>
                 </div>
             </section>
+            <Carousel />
 
 
 
@@ -407,6 +408,7 @@ export default function Learn() {
                     </div>
                 </div>
             </div>
+            
 
             <section className="bg-white py-11 px-2 md:px-16">
                 <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -574,7 +576,6 @@ export default function Learn() {
 
                 </div>
             </section>
-            <Carousel />
 
         </>
     );
