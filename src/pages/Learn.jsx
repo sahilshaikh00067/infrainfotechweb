@@ -356,8 +356,6 @@ export default function Learn() {
 
 
 
-
-
             {/* INTEGRATIONS SECTION */}
             <div className="w-full bg-blue-100 py-16 px-6 md:px-14">
 
