@@ -9,7 +9,7 @@ import contact4 from "../assets/Images/contact4.png";
 import mansi from "../assets/Images/mansi.webp";
 import kousen from "../assets/Images/kousen.jpeg";
 import riya from "../assets/Images/riya.avif";
-import sahil1 from "../assets/Images/sahil1.jpeg";
+import sahil from "../assets/Images/sahil.jpeg"
 import ramzan from "../assets/Images/ramzan.jpeg";
 import BookMeeting from "./Bookmeeting";
 import saba from "../assets/Images/saba.avif";
@@ -17,7 +17,7 @@ import saba from "../assets/Images/saba.avif";
 
 // Sales executives data - using contact images
 const executives = [
-  { name: "Sahil", img: sahil1 },
+  { name: "Sahil", img: sahil },
   { name: "Faraah", img: mansi },
   { name: "Kousen", img: kousen },
   { name: "Aayesha", img: riya },
@@ -214,10 +214,10 @@ ${form.message}
               {/* OUR SALES EXECUTIVES */}
               <div className="mt-10">
                 <h3 className="text-sm font-bold text-gray-800 uppercase tracking-widest mb-6">Our Sales Executives</h3>
-                <div className="grid grid-cols-3 gap-6">
+                <div className="grid grid-cols-3 gap-2">
                   {executives.map((exec, i) => (
-                    <div key={i} className="flex flex-col items-center gap-2">
-                      <div className="w-19 h-19 rounded-full overflow-hidden shadow-md" style={{ border: "3px solid #1e4f" }}>
+                    <div key={i} className="flex flex-col items-center gap-1">
+                      <div className="w-23 h-23 rounded-full overflow-hidden shadow-md" style={{ border: "3px solid #1e4f" }}>
                         <img src={exec.img} alt={exec.name} className="w-full bg-[#dfecf5] h-full object-cover" />
                       </div>
                       <span className="text-sm text-gray-700 text-center font-medium">{exec.name}</span>
