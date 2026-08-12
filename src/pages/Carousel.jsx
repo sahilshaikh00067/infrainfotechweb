@@ -127,7 +127,7 @@ export default function Carousel() {
                 </span>
 
                 <h2 className="mt-5 text-4xl md:text-5xl font-black leading-tight">
-                    <span className="text-slate-900">Connect Every</span>
+                    <span className="text-slate-900">Connect Every With Infocomm</span>
                     <br />
                     <span className="bg-gradient-to-r from-blue-600 via-cyan-500 to-indigo-600 bg-clip-text text-transparent">
                         Business Tool

@@ -318,7 +318,7 @@ export default function Learn() {
 
                             {/* Heading */}
                             <h2 className="text-4xl md:text-5xl font-semibold text-[#111827] leading-tight mb-8">
-                                Seamlessly integrate with the tools you already love
+                                Infocomm with the tools you already love
                             </h2>
 
                             {/* Description */}
