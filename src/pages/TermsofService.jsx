@@ -15,15 +15,15 @@ export default function TermsOfService() {
 
         {/* Welcome */}
         <div>
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">Welcome to Infocomm</h2>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">Welcome to Infra Infotech</h2>
           <p>
             These terms and conditions outline the rules and regulations for the use of{" "}
-            <span className="font-semibold text-gray-900">Infocomm</span>'s Website,
+            <span className="font-semibold text-gray-900">Infra Infotech</span>'s Website,
             located at <a href="https://www.infrainfotech.com" className="text-blue-600 hover:underline">www.infrainfotech.com</a>.
           </p>
           <p className="mt-4">
             By accessing this website we assume you accept these terms and conditions. Do not continue to use
-            Infocomm if you do not agree to take all of the terms and conditions stated on this page.
+            Infra Infotechif you do not agree to take all of the terms and conditions stated on this page.
           </p>
           <p className="mt-4">
             The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements:
@@ -43,8 +43,8 @@ export default function TermsOfService() {
         <div>
           <h2 className="text-xl font-semibold text-gray-900 mb-3">Cookies</h2>
           <p>
-            We employ the use of cookies. By accessing Infocomm, you agreed to use cookies in agreement
-            with Infocomm's Privacy Policy.
+            We employ the use of cookies. By accessing Infra Infotech, you agreed to use cookies in agreement
+            with Infra Infotech's Privacy Policy.
           </p>
           <p className="mt-4">
             Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website
@@ -59,30 +59,30 @@ export default function TermsOfService() {
         <div>
           <h2 className="text-xl font-semibold text-gray-900 mb-3">License</h2>
           <p>
-            Unless otherwise stated, Infocomm and/or its licensors own the intellectual property rights for all
-            material on Infocomm. All intellectual property rights are reserved. You may access this from
-            Infocomm for your own personal use subjected to restrictions set in these terms and conditions.
+            Unless otherwise stated, Infra Infotechand/or its licensors own the intellectual property rights for all
+            material on Infra Infotech. All intellectual property rights are reserved. You may access this from
+            Infra Infotechfor your own personal use subjected to restrictions set in these terms and conditions.
           </p>
           <p className="mt-4 font-semibold text-gray-800">You must not:</p>
           <ul className="mt-3 space-y-2 list-disc list-inside text-gray-600">
-            <li>Republish material from Infocomm</li>
-            <li>Sell, rent or sub-license material from Infocomm</li>
-            <li>Reproduce, duplicate or copy material from Infocomm</li>
-            <li>Redistribute content from Infocomm</li>
+            <li>Republish material from Infra Infotech</li>
+            <li>Sell, rent or sub-license material from Infra Infotech</li>
+            <li>Reproduce, duplicate or copy material from Infra Infotech</li>
+            <li>Redistribute content from Infra Infotech</li>
           </ul>
           <p className="mt-4">
             This Agreement shall begin on the date hereof.
           </p>
           <p className="mt-4">
             Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the
-            website. Infocomm does not filter, edit, publish or review Comments prior to their presence on the
-            website. Comments do not reflect the views and opinions of Infocomm, its agents and/or affiliates.
+            website. Infra Infotechdoes not filter, edit, publish or review Comments prior to their presence on the
+            website. Comments do not reflect the views and opinions of Infra Infotech, its agents and/or affiliates.
             Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable
-            laws, Infocomm shall not be liable for the Comments or for any liability, damages or expenses caused
+            laws, Infra Infotechshall not be liable for the Comments or for any liability, damages or expenses caused
             and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.
           </p>
           <p className="mt-4">
-            Infocomm reserves the right to monitor all Comments and to remove any Comments which can be considered
+            Infra Infotechreserves the right to monitor all Comments and to remove any Comments which can be considered
             inappropriate, offensive or causes breach of these Terms and Conditions.
           </p>
           <p className="mt-4 font-semibold text-gray-800">You warrant and represent that:</p>
@@ -93,7 +93,7 @@ export default function TermsOfService() {
             <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li>
           </ul>
           <p className="mt-4">
-            You hereby grant Infocomm a non-exclusive license to use, reproduce, edit and authorize others to use,
+            You hereby grant Infra Infotecha non-exclusive license to use, reproduce, edit and authorize others to use,
             reproduce and edit any of your Comments in any and all forms, formats or media.
           </p>
         </div>
@@ -105,9 +105,9 @@ export default function TermsOfService() {
           <h2 className="text-xl font-semibold text-gray-900 mb-3">Control of Your Personal Information</h2>
           <p>
             Except as otherwise described in this statement, personal information you provide on the Site will not be shared outside of
-            Infocomm and its controlled subsidiaries without your permission. Please be aware that this privacy
+            Infra Infotechand its controlled subsidiaries without your permission. Please be aware that this privacy
             statement and any choices you make on the Site will not necessarily apply to personal information you may have provided to
-            Infocomm in the context of other, separately operated, Infocomm products or services.
+            in the context of other, separately operated, Infra Infotechproducts or services.
           </p>
         </div>
 
@@ -117,7 +117,7 @@ export default function TermsOfService() {
         <div>
           <h2 className="text-xl font-semibold text-gray-900 mb-3">Securing Your Data</h2>
           <p>
-            Infocomm will store all the personal information you provide on its secure servers. Information
+            Infra Infotechwill store all the personal information you provide on its secure servers. Information
             relating to electronic transactions entered into via this website will be protected by encryption technology.
           </p>
         </div>
@@ -128,8 +128,8 @@ export default function TermsOfService() {
         <div>
           <h2 className="text-xl font-semibold text-gray-900 mb-3">Cross-Border Data Transfers</h2>
           <p>
-            Information that Infocomm collects may be stored and processed in and transferred between any of the
-            countries in which Infocomm operates to enable the use of the information in accordance with this
+            Information that Infra Infotechcollects may be stored and processed in and transferred between any of the
+            countries in which Infra Infotechoperates to enable the use of the information in accordance with this
             privacy policy. In addition, personal information that you submit for publication on the website will be published on the
             internet and may be available around the world. You agree to such cross-border transfers of personal information.
           </p>
@@ -166,7 +166,7 @@ export default function TermsOfService() {
           <p className="mt-4">
             We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably
             to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit
-            to us from the visibility of the hyperlink compensates the absence of Infocomm; and (d) the link is
+            to us from the visibility of the hyperlink compensates the absence of Infra Infotech; and (d) the link is
             in the context of general resource information.
           </p>
           <p className="mt-4">
@@ -184,7 +184,7 @@ export default function TermsOfService() {
             <li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party's site.</li>
           </ul>
           <p className="mt-4">
-            No use of Infocomm's logo or other artwork will be allowed for linking absent a trademark license agreement.
+            No use of Infra Infotech's logo or other artwork will be allowed for linking absent a trademark license agreement.
           </p>
         </div>
 
@@ -265,14 +265,14 @@ export default function TermsOfService() {
         <div>
           <h2 className="text-xl font-semibold text-gray-900 mb-3">Communication</h2>
           <p>
-            When you visit Infocomm website, Infocomm may ask you some information.
-            When you fill such information, it will be presumed that you wish to communicate with Infocomm
-            and give consent to Infocomm to receive communications from Infocomm.
+            When you visit Infra Infotechwebsite, Infra Infotechmay ask you some information.
+            When you fill such information, it will be presumed that you wish to communicate with Infra Infotech
+            and give consent to Infra Infotechto receive communications from Infra Infotech.
           </p>
           <p className="mt-4">
-            Infocomm will communicate with you through e-mail or Call or by posting notices on the Site or
-            by such other means as Infocomm may determine from time-to-time. You agree that all agreements,
-            notices, disclosures and other communications that Infocomm provides to you satisfy any legal
+            Infra Infotechwill communicate with you through e-mail or Call or by posting notices on the Site or
+            by such other means as Infra Infotechmay determine from time-to-time. You agree that all agreements,
+            notices, disclosures and other communications that Infra Infotechprovides to you satisfy any legal
             requirement that such communications be in writing, to the extent permitted by applicable law.
           </p>
         </div>
@@ -283,7 +283,7 @@ export default function TermsOfService() {
         <div>
           <h2 className="text-xl font-semibold text-gray-900 mb-3">Indemnification</h2>
           <p>
-            You hereby agree to defend, indemnify and hold Infocomm against any and all losses, liabilities,
+            You hereby agree to defend, indemnify and hold Infra Infotechagainst any and all losses, liabilities,
             damages, and/or claims (including, without limitation, attorneys' fees and costs) arising due to the breach of these T&C
             or otherwise arising from your use or misuse of the Site or Content.
           </p>
@@ -298,7 +298,7 @@ export default function TermsOfService() {
             From time to time, this website may also include links to other sites. These links are provided for your convenience to
             provide further information. They do not signify that we endorse the website(s). We have no responsibility for the content
             of the linked website(s). Your use of Third-Party sites is subject to the terms of use and privacy policies located on
-            such Third-Party sites, which may be different from these T&C or Infocomm's Privacy Policy.
+            such Third-Party sites, which may be different from these T&C or Infra Infotech's Privacy Policy.
           </p>
         </div>
 
@@ -309,8 +309,8 @@ export default function TermsOfService() {
           <h2 className="text-xl font-semibold text-gray-900 mb-3">Severability / Entire Agreement</h2>
           <p>
             These T&C, together with the Privacy Policy and any amendments or/and any additional agreements you may enter into with
-            Infocomm in connection with the Services, shall constitute the entire agreement between you and
-            Infocomm concerning the Services. If any provision of these T&C is deemed invalid, illegal or
+            Infra Infotechin connection with the Services, shall constitute the entire agreement between you and
+            Infra Infotechconcerning the Services. If any provision of these T&C is deemed invalid, illegal or
             unenforceable, then that such provision shall be enforced to the maximum extent permissible so as to maintain the intent
             of these T&C, and all other remaining provisions of these Terms will remain in full force and effect.
           </p>
@@ -323,7 +323,7 @@ export default function TermsOfService() {
           <h2 className="text-xl font-semibold text-gray-900 mb-3">Assignment</h2>
           <p>
             These T&C, and any rights and licenses granted hereunder, shall not be transferred or assigned by you to anyone. Whereas,
-            Infocomm can assign such rights and licenses without restriction.
+            Infra Infotechcan assign such rights and licenses without restriction.
           </p>
         </div>
 
@@ -346,10 +346,10 @@ export default function TermsOfService() {
           <p>
             Any Court of India shall have sole and exclusive jurisdiction for all purposes in connection with any action or proceeding
             that arises from, or relates to, these T&C, and you hereby irrevocably waive any objection to such exclusive jurisdiction;
-            provided however, that Infocomm may seek to enforce any judgment in its favor in any court of competent
-            jurisdiction. Notwithstanding the foregoing, Infocomm may seek injunctive or other equitable relief
+            provided however, that Infra Infotechmay seek to enforce any judgment in its favor in any court of competent
+            jurisdiction. Notwithstanding the foregoing, Infra Infotechmay seek injunctive or other equitable relief
             in any court of competent jurisdiction to protect its proprietary and other rights. You agree that your breach or threatened
-            breach of these T&C may result in immediate and irreparable damage to Infocomm for which there is no
+            breach of these T&C may result in immediate and irreparable damage to Infra Infotechfor which there is no
             adequate remedy at law. These Terms are only valid in the English language.
           </p>
         </div>
