@@ -249,7 +249,7 @@ It helps improve customer engagement, reduce no-shows, and deliver important inf
         question: "How can I get started with bulk SMS for my business?",
         answer: `Getting started is simple:
 
-1. Choose a trusted Bulk SMS provider like Infra Infotech.
+1. Choose a trusted Bulk SMS provider like Shivangi Desai.
 2. Complete DLT registration.
 3. Recharge your account.
 4. Create approved templates.
@@ -330,7 +330,7 @@ Charges may change as per operator policies.`,
 
     {
         question: "Is SMS integration with my CRM or application possible?",
-        answer: `Yes. Infra Infotechprovides SMS APIs that integrate easily with CRMs, websites, mobile applications, ERP systems, and custom software for automated messaging.`,
+        answer: `Yes. Shivangi Desaiprovides SMS APIs that integrate easily with CRMs, websites, mobile applications, ERP systems, and custom software for automated messaging.`,
     },
 ];
 
@@ -640,7 +640,7 @@ export default function BulkSms() {
                             </h2>
 
                             <p className="text-gray-500 text-[15px] leading-relaxed mb-8">
-                                Infra Infotechis a pioneer in the SMS industry and we know what we do. Our Bulk SMS services are
+                                Shivangi Desaiis a pioneer in the SMS industry and we know what we do. Our Bulk SMS services are
                                 tailor made for various types of business and are highly reliable. Act smart and go the bulk sms way to
                                 stand ahead in competition.
                             </p>

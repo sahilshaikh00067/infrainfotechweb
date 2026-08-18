@@ -13,7 +13,7 @@ export default function Footer() {
 
         {/* LEFT - LOGO + PARTNER BADGES */}
         <div>
-          <img src={logo} alt="Infra Infotech" className="h-20 object-contain" />
+          <img src={logo} alt="Shivangi Desai" className="h-20 object-contain" />
 
           <div className="flex gap-4 mt-8">
             <div className="border border-gray-200 rounded-xl px-5 py-4 flex flex-col items-center justify-center w-[250px] h-[100px] shadow-sm">
@@ -178,14 +178,14 @@ export default function Footer() {
       {/* COMPANY DESC */}
       <div className="max-w-7xl mx-15 mt-6">
         <p className="text-[16px] text-gray-500 leading-relaxed">
-          Infra Infotechis one of the leading CPaaS service provider. We offer an array of services such as WhatsApp Business API,
+          Shivangi Desaiis one of the leading CPaaS service provider. We offer an array of services such as WhatsApp Business API,
           WhatsApp Business Cloud API, RCS messaging, Bulk sms, Voice call, Cloud telephony services and many more under one roof.
         </p>
       </div>
 
       {/* BOTTOM BAR */}
       <div className="max-w-7xl mx-15 mt-20 py-5 border-t border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p className="text-[14px] text-gray-800">© 2022. All rights reserved. Infra Infotech Private Limited</p>
+        <p className="text-[14px] text-gray-800">© 2022. All rights reserved. Shivangi Desai</p>
         <div className="flex gap-6">
           <Link to="/privacy-policy" className="text-sm text-gray-800 hover:text-black transition-colors duration-200">Privacy Policy</Link>
           <Link to="/terms-of-service" className="text-sm text-gray-800 hover:text-black transition-colors duration-200">Terms of Service</Link>

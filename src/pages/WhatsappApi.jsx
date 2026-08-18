@@ -60,7 +60,7 @@ const slides = [
       {
         title: "Team Inbox",
         description:
-          "Manage all your customer conversations efficiently with WhatsApp Team Inbox. With Infra Infotech, your entire support team can handle, assign, and respond to messages from one shared WhatsApp number. Easily track agent performance, collaborate with internal notes, and personalise every reply—ensuring no message goes unanswered. Whether it's sales, support, or follow-ups, our Team Inbox makes customer communication faster, more effective, and fully organised.",
+          "Manage all your customer conversations efficiently with WhatsApp Team Inbox. With Shivangi Desai, your entire support team can handle, assign, and respond to messages from one shared WhatsApp number. Easily track agent performance, collaborate with internal notes, and personalise every reply—ensuring no message goes unanswered. Whether it's sales, support, or follow-ups, our Team Inbox makes customer communication faster, more effective, and fully organised.",
       },
     ],
   },
@@ -70,7 +70,7 @@ const slides = [
       {
         title: "Team Inbox",
         description:
-          "Manage all your customer conversations efficiently with WhatsApp Team Inbox. With Infra Infotech, your entire support team can handle, assign, and respond to messages from one shared WhatsApp number. Easily track agent performance, collaborate with internal notes, and personalise every reply—ensuring no message goes unanswered. Whether it's sales, support, or follow-ups, our Team Inbox makes customer communication faster, more effective, and fully organised.",
+          "Manage all your customer conversations efficiently with WhatsApp Team Inbox. With Shivangi Desai, your entire support team can handle, assign, and respond to messages from one shared WhatsApp number. Easily track agent performance, collaborate with internal notes, and personalise every reply—ensuring no message goes unanswered. Whether it's sales, support, or follow-ups, our Team Inbox makes customer communication faster, more effective, and fully organised.",
       },
       {
         title: "WhatsApp Business Calling API",
@@ -85,7 +85,7 @@ const slides = [
       {
         title: "Team Inbox",
         description:
-          "Manage all your customer conversations efficiently with WhatsApp Team Inbox. With Infra Infotech, your entire support team can handle, assign, and respond to messages from one shared WhatsApp number. Easily track agent performance, collaborate with internal notes, and personalise every reply—ensuring no message goes unanswered. Whether it's sales, support, or follow-ups, our Team Inbox makes customer communication faster, more effective, and fully organised.",
+          "Manage all your customer conversations efficiently with WhatsApp Team Inbox. With Shivangi Desai, your entire support team can handle, assign, and respond to messages from one shared WhatsApp number. Easily track agent performance, collaborate with internal notes, and personalise every reply—ensuring no message goes unanswered. Whether it's sales, support, or follow-ups, our Team Inbox makes customer communication faster, more effective, and fully organised.",
       },
       {
         title: "WhatsApp Business Calling API",
@@ -105,7 +105,7 @@ const slides = [
       {
         title: "Team Inbox",
         description:
-          "Manage all your customer conversations efficiently with WhatsApp Team Inbox. With Infra Infotech, your entire support team can handle, assign, and respond to messages from one shared WhatsApp number. Easily track agent performance, collaborate with internal notes, and personalise every reply—ensuring no message goes unanswered. Whether it's sales, support, or follow-ups, our Team Inbox makes customer communication faster, more effective, and fully organised.",
+          "Manage all your customer conversations efficiently with WhatsApp Team Inbox. With Shivangi Desai, your entire support team can handle, assign, and respond to messages from one shared WhatsApp number. Easily track agent performance, collaborate with internal notes, and personalise every reply—ensuring no message goes unanswered. Whether it's sales, support, or follow-ups, our Team Inbox makes customer communication faster, more effective, and fully organised.",
       },
       {
         title: "WhatsApp Business Calling API",
@@ -130,7 +130,7 @@ const slides = [
       {
         title: "Team Inbox",
         description:
-          "Manage all your customer conversations efficiently with WhatsApp Team Inbox. With Infra Infotech, your entire support team can handle, assign, and respond to messages from one shared WhatsApp number. Easily track agent performance, collaborate with internal notes, and personalise every reply—ensuring no message goes unanswered. Whether it's sales, support, or follow-ups, our Team Inbox makes customer communication faster, more effective, and fully organised.",
+          "Manage all your customer conversations efficiently with WhatsApp Team Inbox. With Shivangi Desai, your entire support team can handle, assign, and respond to messages from one shared WhatsApp number. Easily track agent performance, collaborate with internal notes, and personalise every reply—ensuring no message goes unanswered. Whether it's sales, support, or follow-ups, our Team Inbox makes customer communication faster, more effective, and fully organised.",
       },
       {
         title: "WhatsApp Business Calling API",
@@ -394,11 +394,11 @@ const WhatsAppHero = () => {
             {/* ===== LEFT: TEXT ===== */}
             <div>
               <h2 className="text-2xl md:text-2xl font-semibold text-gray-900 leading-snug mb-6">
-                Why Choose Infra Infotechas Your WhatsApp Business API Provider?
+                Why Choose Shivangi Desaias Your WhatsApp Business API Provider?
               </h2>
 
               <p className="text-gray-600 text-base leading-relaxed mb-8">
-                Infra Infotechempowers businesses to harness the full potential of the
+                Shivangi Desaiempowers businesses to harness the full potential of the
                 WhatsApp Business API. With advanced chatbot capabilities, reliable
                 performance, personalised message delivery, and a user-friendly dashboard,
                 our{" "}

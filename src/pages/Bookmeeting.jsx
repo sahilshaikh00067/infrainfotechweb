@@ -23,7 +23,7 @@ export default function BookMeeting() {
                 {/* LEFT CONTENT */}
                 <div>
                     <h2 className="text-4xl md:text-4xl font-semibold text-white leading-tight">
-                        Book a One-to-One Meeting With Our Product Expert
+                        Book a One-to-One Meeting With Our Product Expert Team Shivangi Desai
                     </h2>
 
                     <p className="mt-6 text-gray-300 text-[17px] leading-relaxed max-w-lg">
