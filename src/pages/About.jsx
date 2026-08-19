@@ -195,7 +195,7 @@ const About = () => {
               Simplifying Business Communication
             </h1>
             <p className="text-gray-700 text-lg leading-relaxed max-w-xl mb-8">
-              Shivangi Desaiprovides top-notch communication solutions. With
+              Infra Infotechprovides top-notch communication solutions. With
               our RCS messaging, WhatsApp API, Bulk SMS, and Voice calls, we
               help businesses reach their audiences easily and effectively.
               Let&apos;s make communication simpler together.
@@ -249,7 +249,7 @@ const About = () => {
           <p className="text-gray-800 leading-relaxed text-[18px] font-semibold mb-6">
             &quot;Rapid digitalisation, alongside advances in technology and
             AI, is prompting businesses worldwide to rethink how they serve
-            and engage with their customers. Shivangi Desaioffers the
+            and engage with their customers. Infra Infotechoffers the
             products, capabilities, and expertise to meet these evolving
             demands.&quot;
           </p>
@@ -324,7 +324,7 @@ const About = () => {
               Be part of our story
             </h2>
             <p className="text-gray-300 text-lg">
-              Shivangi Desai: Connecting Businesses Worldwide
+              Infra Infotech: Connecting Businesses Worldwide
             </p>
             <div className="mt-6 mx-auto h-[3px] w-24 rounded-full bg-gradient-to-r from-[#307eba] to-blue-300" />
           </div>
@@ -411,7 +411,7 @@ const About = () => {
             </h2>
 
             <p className="text-gray-700 text-lg leading-relaxed mb-8 max-w-xl">
-              We are Shivangi Desai—your partner in powerful business
+              We are Infra Infotech—your partner in powerful business
               communication. From small startups to global enterprises, we
               help businesses talk to their customers in smarter ways using
               our easy-to-use omnichannel platforms.

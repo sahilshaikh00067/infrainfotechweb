@@ -16,17 +16,17 @@ export default function PrivacyPolicy() {
         {/* Intro */}
         <div>
           <p>
-            At <span className="font-semibold text-gray-900">Shivangi Desai</span>, accessible from{" "}
+            At <span className="font-semibold text-gray-900">Infra Infotech</span>, accessible from{" "}
             <a href="https://www.infrainfotech.com" className="text-blue-600 hover:underline">https://www.infrainfotech.com</a>,
             one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information
-            that is collected and recorded by Shivangi Desaiand how we use it.
+            that is collected and recorded by Infra Infotechand how we use it.
           </p>
           <p className="mt-4">
             If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
           </p>
           <p className="mt-4">
             This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the
-            information that they shared and/or collect in Shivangi Desai. This policy is not applicable to any
+            information that they shared and/or collect in Infra Infotech. This policy is not applicable to any
             information collected offline or via channels other than this website.
           </p>
         </div>
@@ -95,7 +95,7 @@ export default function PrivacyPolicy() {
         <div>
           <h2 className="text-xl font-semibold text-gray-900 mb-3">Log Files</h2>
           <p>
-            Shivangi Desaifollows a standard procedure of using log files. These files log visitors when they visit websites.
+            Infra Infotechfollows a standard procedure of using log files. These files log visitors when they visit websites.
             All hosting companies do this and a part of hosting services' analytics. The information collected by log files includes internet
             protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly
             the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is
@@ -110,7 +110,7 @@ export default function PrivacyPolicy() {
         <div>
           <h2 className="text-xl font-semibold text-gray-900 mb-3">Cookies and Web Beacons</h2>
           <p>
-            Like any other website, Shivangi Desaiuses 'cookies'. These cookies are used to store information including
+            Like any other website, Infra Infotechuses 'cookies'. These cookies are used to store information including
             visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize
             the users' experience by customizing our web page content based on visitors' browser type and/or other information.
           </p>
@@ -156,16 +156,16 @@ export default function PrivacyPolicy() {
         <div>
           <h2 className="text-xl font-semibold text-gray-900 mb-3">Advertising Partners Privacy Policies</h2>
           <p>
-            You may consult this list to find the Privacy Policy for each of the advertising partners of Shivangi Desai.
+            You may consult this list to find the Privacy Policy for each of the advertising partners of Infra Infotech.
           </p>
           <p className="mt-4">
             Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their
-            respective advertisements and links that appear on Shivangi Desai, which are sent directly to users' browser.
+            respective advertisements and links that appear on Infra Infotech, which are sent directly to users' browser.
             They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their
             advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
           </p>
           <p className="mt-4">
-            Note that Shivangi Desaihas no access to or control over these cookies that are used by third-party advertisers.
+            Note that Infra Infotechhas no access to or control over these cookies that are used by third-party advertisers.
           </p>
         </div>
 
@@ -175,7 +175,7 @@ export default function PrivacyPolicy() {
         <div>
           <h2 className="text-xl font-semibold text-gray-900 mb-3">Third-Party Privacy Policies</h2>
           <p>
-            Shivangi Desai's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to
+            Infra Infotech's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to
             consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their
             practices and instructions about how to opt-out of certain options.
           </p>
@@ -193,7 +193,7 @@ export default function PrivacyPolicy() {
 
           <h3 className="text-base font-semibold text-gray-800 mt-6 mb-2">Overview</h3>
           <p>
-            Shivangi Desaioffers integration with third-party AI assistants, including Claude by Anthropic, through the
+            Infra Infotechoffers integration with third-party AI assistants, including Claude by Anthropic, through the
             Model Context Protocol ("MCP"). This integration allows authorized users to access our messaging and contact management
             services directly from within a supported AI assistant interface.
           </p>
@@ -201,7 +201,7 @@ export default function PrivacyPolicy() {
           <h3 className="text-base font-semibold text-gray-800 mt-6 mb-2">How the Integration Works</h3>
           <p>When you connect your account to a supported AI assistant:</p>
           <ol className="mt-3 space-y-3 list-decimal list-inside text-gray-600">
-            <li>You authenticate directly with Shivangi Desaithrough a secure OAuth 2.0 login flow. Your password is submitted only to our servers and is never stored, shared with, or accessible to the AI assistant or any third party.</li>
+            <li>You authenticate directly with Infra Infotechthrough a secure OAuth 2.0 login flow. Your password is submitted only to our servers and is never stored, shared with, or accessible to the AI assistant or any third party.</li>
             <li>Upon successful authentication, a temporary access token is issued and used to perform actions on your behalf.</li>
             <li>The AI assistant sends structured requests (such as "send an SMS" or "fetch a campaign report") to our MCP server, which executes them using your authenticated session.</li>
           </ol>
@@ -216,7 +216,7 @@ export default function PrivacyPolicy() {
 
           <h3 className="text-base font-semibold text-gray-800 mt-6 mb-2">Data We Do NOT Collect</h3>
           <ul className="mt-3 space-y-2 list-disc list-inside text-gray-600">
-            <li><span className="font-semibold text-gray-700">Conversation data:</span> Shivangi Desaidoes not receive, store, log, or have access to your conversations with the AI assistant. We only process the specific tool call parameters and return the corresponding results.</li>
+            <li><span className="font-semibold text-gray-700">Conversation data:</span> Infra Infotechdoes not receive, store, log, or have access to your conversations with the AI assistant. We only process the specific tool call parameters and return the corresponding results.</li>
             <li><span className="font-semibold text-gray-700">AI-generated content:</span> Any text generated by the AI assistant that is not explicitly submitted as a tool call parameter is not transmitted to or processed by us.</li>
             <li><span className="font-semibold text-gray-700">Browsing or interaction history:</span> We do not track how you interact with the AI assistant outside of direct tool calls.</li>
           </ul>
@@ -263,7 +263,7 @@ export default function PrivacyPolicy() {
             </table>
           </div>
           <p className="mt-4">
-            Shivangi Desaiis not responsible for the data handling practices of third-party AI service providers.
+            Infra Infotechis not responsible for the data handling practices of third-party AI service providers.
             We encourage you to review their privacy policies independently.
           </p>
 
