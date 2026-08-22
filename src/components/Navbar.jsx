@@ -444,13 +444,13 @@ const Navbar = () => {
 
           {/* DESKTOP CTA BUTTONS (lg and up) */}
           <div className="hidden lg:flex items-center gap-3 shrink-0">
-            <Link to="/partner">
+            <Link to="/">
               <button className="text-sm font-semibold text-[#5692c3] hover:text-[#5692c3] transition-colors px-4 py-2 rounded-lg hover:bg-blue-50 border border-transparent hover:border-blue-100">
                 Become a Partner
               </button>
             </Link>
 
-            <Link to="/meeting">
+            <Link to="/contact">
               <motion.button
                 whileHover={{ scale: 1.04, boxShadow: "0 6px 24px rgba(37,99,235,0.35)" }}
                 whileTap={{ scale: 0.97 }}
