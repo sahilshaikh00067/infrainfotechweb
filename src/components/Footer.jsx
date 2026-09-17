@@ -185,7 +185,7 @@ export default function Footer() {
 
       {/* BOTTOM BAR */}
       <div className="max-w-7xl mx-15 mt-20 py-5 border-t border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p className="text-[14px] text-gray-800">© 2022. All rights reserved. Infra Infotech Private Limited</p>
+        <p className="text-[14px] text-gray-800">© 2022. All rights reserved. Boostify</p>
         <div className="flex gap-6">
           <Link to="/privacy-policy" className="text-sm text-gray-800 hover:text-black transition-colors duration-200">Privacy Policy</Link>
           <Link to="/terms-of-service" className="text-sm text-gray-800 hover:text-black transition-colors duration-200">Terms of Service</Link>

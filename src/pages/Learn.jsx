@@ -152,7 +152,7 @@ export default function Learn() {
                     {/* MAIN HEADING */}
                     <div className="text-center max-w-6xl mx-auto mt-8">
                         <h2 className="text-3xl md:text-4xl font-semibold text-black leading-tight">
-                            RCS, WhatsApp API, SMS & Voice Solution—Everything Your Business Needs
+                            RCS, WhatsApp API, SMS & Voice Solution—Everything Your Business Needs Boostify
                         </h2>
                     </div>
 
@@ -234,7 +234,7 @@ export default function Learn() {
                     </span>
 
                     <h2 className="mt-7 text-4xl md:text-4xl font-semibold text-black leading-tight">
-                        A Unified Platform for Smarter Business Messaging
+                        A Unified Boostify Platform for Smarter Business Messaging
                     </h2>
 
                     <p className="mt-7 text-[#6d6b8b] text-lg leading-relaxed">
@@ -271,7 +271,7 @@ export default function Learn() {
                         </span>
 
                         <h2 className="text-4xl md:text-4xl lg:text-5xl font-semibold text-[#0f172a] leading-tight mb-3">
-                            Connect, Engage & Convert Customers Across Every Channel
+                            Connect, Engage & Convert Customers Across Every Channel With Boostify
                         </h2>
 
                         <p className="mb-5 md:text-[17px] text-gray-600 leading-relaxed">
@@ -318,7 +318,7 @@ export default function Learn() {
 
                             {/* Heading */}
                             <h2 className="text-4xl md:text-5xl font-semibold text-[#111827] leading-tight mb-8">
-                                Seamlessly integrate the tools you already love
+                                Seamlessly integrate the tools you already love Boostify
                             </h2>
 
                             {/* Description */}
@@ -380,7 +380,7 @@ export default function Learn() {
                         </span>
 
                         <h2 className="mt-7 text-4xl md:text-4xl font-semibold text-black leading-tight">
-                            Sync Your Tools, Simplify Your Operations
+                            Boostify Sync Your Tools, Simplify Your Operations
                         </h2>
 
                         <p className="mt-5 text-[#307eba] text-xl leading-relaxed font-medium">
