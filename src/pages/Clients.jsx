@@ -16,6 +16,10 @@ import client8 from "../assets/Images/client8.webp";
 import client9 from "../assets/Images/client9.webp";
 import client10 from "../assets/Images/client10.webp";
 import client11 from "../assets/Images/client11.webp";
+import client12 from "../assets/Images/client12.png";
+import client13 from "../assets/Images/client13.png";
+
+
 import vid from "../assets/Images/vid.png";
 
 const logos = [
@@ -30,6 +34,8 @@ const logos = [
   client9,
   client10,
   client11,
+  client12,
+  client13
 ];
 
 const stats = [

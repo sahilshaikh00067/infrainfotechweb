@@ -16,15 +16,15 @@ import saba from "../assets/Images/saba.avif";
 
 
 // Sales executives data - using contact images
-const executives = [
-  { name: "Sahil", img: sahil },
-  { name: "Faraah", img: mansi },
-  { name: "Kousen", img: kousen },
-  { name: "Aayesha", img: riya },
-  { name: "Ramzan", img: ramzan },
-  { name: "Siba", img: saba },
+// const executives = [
+//   { name: "Sahil", img: sahil },
+//   { name: "Faraah", img: mansi },
+//   { name: "Kousen", img: kousen },
+//   { name: "Aayesha", img: riya },
+//   { name: "Ramzan", img: ramzan },
+//   { name: "Siba", img: saba },
 
-];
+// ];
 
 const products = [
   "WhatsApp Business API",
@@ -211,21 +211,6 @@ ${form.message}
               </h2>
               <p className="mt-4 text-gray-500 text-base">Our team is ready to guide you!</p>
 
-              {/* OUR SALES EXECUTIVES */}
-              <div className="mt-10">
-                <h3 className="text-sm font-bold text-gray-800 uppercase tracking-widest mb-6">Our Sales Executives</h3>
-                <div className="grid grid-cols-3 gap-2">
-                  {executives.map((exec, i) => (
-                    <div key={i} className="flex flex-col items-center gap-1">
-                      <div className="w-23 h-23 rounded-full overflow-hidden shadow-md" style={{ border: "3px solid #1e4f" }}>
-                        <img src={exec.img} alt={exec.name} className="w-full bg-[#dfecf5] h-full object-cover" />
-                      </div>
-                      <span className="text-sm text-gray-700 text-center font-medium">{exec.name}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
               {/* CATEGORY TABS */}
               <div className="mt-10 divide-y divide-gray-200 border-t border-gray-200">
 
@@ -233,21 +218,21 @@ ${form.message}
                 <div className="py-5">
                   <span className="inline-block px-5 py-1.5 rounded-full text-sm font-semibold text-blue-700 bg-blue-100">Sales</span>
                   <p className="mt-2 text-gray-500 text-sm">Speak to our friendly team for sales purposes.</p>
-                  <a href="mailto:info@greenadsglobal.com" className="inline-block mt-2 text-blue-700 font-semibold text-sm underline underline-offset-2">Talk to our expert</a>
+                  <a href="https://wa.me/918381845350" className="inline-block mt-2 text-blue-700 font-semibold text-sm underline underline-offset-2">Talk to our expert</a>
                 </div>
 
                 {/* Support */}
                 <div className="py-5">
                   <span className="inline-block px-5 py-1.5 rounded-full text-sm font-semibold text-blue-700 bg-blue-50 border border-blue-200">Support</span>
                   <p className="mt-2 text-gray-500 text-sm">Speak to our friendly team for support purposes.</p>
-                  <a href="mailto:support@greenadsglobal.com" className="inline-block mt-2 text-blue-700 font-semibold text-sm underline underline-offset-2">Talk to our expert</a>
+                  <a href="https://wa.me/918381845350" className="inline-block mt-2 text-blue-700 font-semibold text-sm underline underline-offset-2">Talk to our expert</a>
                 </div>
 
                 {/* Enquiries */}
                 <div className="py-5">
                   <span className="inline-block px-5 py-1.5 rounded-full text-sm font-semibold text-orange-600 bg-orange-100">Enquiries</span>
                   <p className="mt-2 text-gray-500 text-sm">Speak to our friendly team for other enquiries.</p>
-                  <a href="mailto:info@greenadsglobal.com" className="inline-block mt-2 text-blue-700 font-semibold text-sm underline underline-offset-2">Talk to our expert</a>
+                  <a href="https://wa.me/919004100213" className="inline-block mt-2 text-blue-700 font-semibold text-sm underline underline-offset-2">Talk to our expert</a>
                 </div>
 
               </div>
@@ -381,7 +366,7 @@ ${form.message}
                   className="w-full py-4 rounded-xl text-white font-semibold text-base transition-all duration-300 hover:opacity-90 shadow-lg"
                   style={{ background: "#1e3a8a" }}
                 >
-                  Send message
+                  Send Message
                 </button>
 
               </form>
