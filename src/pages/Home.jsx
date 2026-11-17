@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo, useCallback, memo } from "react"
 
+
 /* =====================================================================
    GreenAds Global – homepage SECTIONS ONLY (no header / no footer)
    light-green theme switched to light-blue
@@ -239,20 +240,6 @@ function CaseShowcase() {
   )
 }
 
-/* ---------------------------------------------------------------------
-   Floating WhatsApp chat widget
-   --------------------------------------------------------------------- */
-function WhatsAppWidget() {
-  const [open, setOpen] = useState(false)
-  useEffect(() => {
-    const esc = (e) => e.key === "Escape" && setOpen(false)
-    document.addEventListener("keydown", esc)
-    return () => document.removeEventListener("keydown", esc)
-  }, [])
-  return (<div className="whatsapp-block"><div className="whatsapp-chat" style={{ display: open ? "flex" : "none", opacity: open ? 1 : 0, transform: open ? "translate3d(0,0,0)" : "translate3d(0,20px,0)", transition: "opacity .3s ease, transform .3s ease" }} aria-hidden={!open}><div className="top-section"><div className="div-block-45"><img src={IMG.i35} alt="" className="live-icon-chat" decoding="async" /><div className="top-text-container"><div className="live-chat-top-text">Greenadsglobal</div><div className="live-chat-bottom-text">online</div></div></div><div id="close-chat" className="close-live-chat-container" onClick={() => setOpen(false)} role="button" tabIndex={0} aria-label="Close chat"><img src={IMG.i36} alt="" className="close-livechat-icon" decoding="async" /></div></div><div className="chat-section"><div className="chat-block" style={{ opacity: open ? 1 : 0, transform: open ? "translate3d(0,0,0)" : "translate3d(20px,0,0)", transition: "opacity .45s ease .12s, transform .45s ease .12s" }}><div className="live-chat-top-text block">Customer Care Team</div><div className="live-chat-bottom-text block">Hi there<br />How can i help you today?</div></div></div>
-    <a href="https://wa.me/919004100213?thank-you" target="_blank" className="live-chat-link w-inline-block">
-      <div className="livechat-button"><img src={IMG.i37} alt="" className="small-whatsapp-icon" decoding="async" /><div className="live-chat-text">Start Whatsapp Chat</div></div></a></div><div id="whatsapp-button" className="whatsapp-container" onClick={() => setOpen((o) => !o)} role="button" tabIndex={0} aria-label="Open WhatsApp chat" aria-expanded={open} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setOpen((o) => !o) } }}><img width="41" alt="" src={IMG.i38} className="whatsapp-icon" decoding="async" /></div></div>)
-}
 
 /* ================= SECTION: HeroSection ================= */
 const HeroSection = memo(function HeroSection() {
@@ -508,7 +495,6 @@ export default function App() {
         <DevelopersSection />
         <FaqSection />
         <ContactSection />
-        <WhatsAppWidget />
       </div>
     </>
   )
