@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo, useCallback, memo } from "react"
 import Learn from "./Learn"
+import Clients from "./Clients"
 
 
 /* =====================================================================
@@ -251,41 +252,21 @@ const HeroSection = memo(function HeroSection() {
           <div className="ga26-hero-message">
             <div className="ga26-eyebrow">Business messaging, connected</div>
             <h1>Every hello.<span className="ga26-serif">New Possibilities</span>
-            </h1><div className="ga26-hero-buttons"><a href="/contact" className="ga26-btn">Book a demo ↗</a>
+            </h1>
+            <div className="ga26-hero-buttons">
+              <a href="/contact" className="ga26-btn">Book a demo ↗</a>
               <a href="/contact" className="ga26-btn ga26-white">Explore the platform ↗</a>
             </div>
             <p className="ga26-hero-description">Every customer conversation can go somewhere. Bring{" "}<strong>WhatsApp Business API, RCS Messaging, Bulk SMS, Voice and AI Agent</strong>{" "}together in one intelligent business messaging platform.</p>
           </div>
           <div aria-label="Product messaging channels overview" className="ga26-hero-gallery">
             <img src="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D.webp" sizes="(max-width: 479px) 100vw, (max-width: 767px) 86vw, (max-width: 991px) 81vw, (max-width: 1279px) 42vw, (max-width: 1439px) 41vw, (max-width: 1919px) 42vw, 46vw" srcSet="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D-p-500.webp 500w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D-p-800.webp 800w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D-p-1080.webp 1080w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D.webp 1164w" alt="WhatsApp, SMS, RCS, Voice and AI connected in one conversation" decoding="async" /></div></div><div aria-label="Selected brands" className="ga26-customer-strip"><div className="ga26-logo-marquee">
-              <div className="ga26-logo-track">
-                <div className="ga26-logo-group">
-                  <span className="ga26-client-logo">
-                    <img src={IMG.i12} alt="Poorvika" decoding="async" />
-                  </span>
-                  <span className="ga26-client-logo">
-                    <img src={IMG.i13} alt="TVS" decoding="async" />
-                  </span><span className="ga26-client-logo">
-                    <img src={IMG.i14} alt="Kalyan Silks" decoding="async" />
-                  </span><span className="ga26-client-logo"><img src={IMG.i15} alt="Hero" decoding="async" />
-                  </span><span className="ga26-client-logo"><img src={IMG.i16} alt="myG" decoding="async" /></span>
-                  <span className="ga26-client-logo"><img src={IMG.i17} alt="Bhima" decoding="async" /></span>
-                  <span className="ga26-client-logo"><img src={IMG.i18} alt="Renault" decoding="async" /></span>
-                </div>
-                <div aria-hidden="true" className="ga26-logo-group"><span className="ga26-client-logo">
-                  <img src={IMG.i12} alt="" decoding="async" /></span><span className="ga26-client-logo">
-                    <img src={IMG.i13} alt="" decoding="async" /></span><span className="ga26-client-logo">
-                    <img src={IMG.i14} alt="" decoding="async" /></span><span className="ga26-client-logo">
-                    <img src={IMG.i15} alt="" decoding="async" /></span><span className="ga26-client-logo">
-                    <img src={IMG.i16} alt="" decoding="async" /></span><span className="ga26-client-logo">
-                    <img src={IMG.i17} alt="" decoding="async" /></span><span className="ga26-client-logo">
-                    <img src={IMG.i18} alt="" decoding="async" />
-                  </span>
-                </div>
-              </div>
+
             </div>
         </div>
       </section>
+
+      <Clients />
 
       <Learn />
 
@@ -295,15 +276,10 @@ const HeroSection = memo(function HeroSection() {
 })
 
 
-/* ================= SECTION: TrustSection ================= */
-const TrustSection = memo(function TrustSection() {
-  return (<section aria-label="Awards and credentials" className="ga26-trust-1 ga26-inset-lines"><div className="ga26-awards"><div><div className="ga26-award-crest"><img src={IMG.i19} alt="Meffys award image" decoding="async" /></div><h3>WINNER– MEFFYS<br />Awards 2024</h3><p>Enterprise Messaging Category</p></div><div><div className="ga26-award-crest"><img src={IMG.i20} alt="Meta partner image" decoding="async" /></div><h3>Official Meta<br />Tech Partner</h3></div><div><div className="ga26-award-crest"><img src={IMG.i21} alt="Google RBM partner image" decoding="async" /></div><h3>Google RBM Partners</h3><p>Asia Pacific | Africa | Middle East</p></div></div><div className="ga26-certifications"><span>Trusted By{" "}<strong>10,000+</strong>{" "}Businesses</span><span><img src={IMG.i22} alt="SOC2 Certified" decoding="async" />SOC2 Certified</span><span><img src={IMG.i23} alt="DPDP-Compliant Platform" decoding="async" />DPDP-Compliant Platform</span><span><img src={IMG.i24} alt="ISO Certified" decoding="async" />ISO Certified</span></div></section>)
-})
-
 /* ================= SECTION: ProductsSection ================= */
-const ProductsSection = memo(function ProductsSection() {
-  return (<section id="ga26-products" className="ga26-products ga26-inset-lines"><div className="ga26-section-head-1"><div className="ga26-eyebrow ga26-center">Messaging solutions</div><h2 className="ga26-title">The right channel for<span className="ga26-serif">every customer moment.</span></h2><p>Explore WhatsApp Business API, RCS Messaging, Bulk SMS and Voice solutions from GreenAds Global.</p></div><div className="ga26-product-grid"><article className="ga26-product-card"><div className="ga26-product-graphic"><img src="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed93de7f4d3dd6159bc3a1_Product_visual-WhatsApp%5B1%5D.webp" sizes="(max-width: 479px) 100vw, (max-width: 767px) 82vw, (max-width: 1279px) 41vw, 478px" srcSet="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed93de7f4d3dd6159bc3a1_Product_visual-WhatsApp%5B1%5D-p-500.webp 500w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed93de7f4d3dd6159bc3a1_Product_visual-WhatsApp%5B1%5D-p-800.webp 800w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed93de7f4d3dd6159bc3a1_Product_visual-WhatsApp%5B1%5D.webp 956w" alt="WhatsApp inbox with a conversation and team assignment" decoding="async" /></div><div className="ga26-product-details"><div className="ga26-product-label"><h3 className="ga26-product-name">WhatsApp Business API</h3><b>01</b></div><p>Bring product questions, service conversations, guided replies, and team handoffs into a channel customers already use.</p><a href="/whatsappapi">Explore WhatsApp Business API ↗</a></div></article><article className="ga26-product-card"><div className="ga26-product-graphic"><img src="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed935516ce867181d21429_Product_visual-RCS_Business_Messaging%5B1%5D.webp" sizes="(max-width: 479px) 100vw, (max-width: 767px) 82vw, (max-width: 1279px) 41vw, 478px" srcSet="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed935516ce867181d21429_Product_visual-RCS_Business_Messaging%5B1%5D-p-500.webp 500w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed935516ce867181d21429_Product_visual-RCS_Business_Messaging%5B1%5D-p-800.webp 800w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed935516ce867181d21429_Product_visual-RCS_Business_Messaging%5B1%5D.webp 956w" alt="RCS campaign with a rich product card and actions" decoding="async" /></div><div className="ga26-product-details"><div className="ga26-product-label"><h3 className="ga26-product-name">RCS Business Messaging</h3><b>02</b></div><p>Use branded, visual messages and interactive actions to help customers explore an offer and respond when something interests them.</p><a href="/rcs">Explore RCS Messaging ↗</a></div></article><article className="ga26-product-card"><div className="ga26-product-graphic"><img src="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed933c15ad05f7cd37d68a_Product_visual-Bulk_SMS%5B1%5D.webp" sizes="(max-width: 479px) 100vw, (max-width: 767px) 82vw, (max-width: 1279px) 41vw, 478px" srcSet="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed933c15ad05f7cd37d68a_Product_visual-Bulk_SMS%5B1%5D-p-500.webp 500w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed933c15ad05f7cd37d68a_Product_visual-Bulk_SMS%5B1%5D-p-800.webp 800w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed933c15ad05f7cd37d68a_Product_visual-Bulk_SMS%5B1%5D.webp 956w" alt="SMS campaign with delivered order update" decoding="async" /></div><div className="ga26-product-details"><div className="ga26-product-label"><h3 className="ga26-product-name">Bulk SMS</h3><b>03</b></div><p>Share alerts, reminders, OTPs, and important updates in a simple format that gets to the point.</p><a href="/bulksms">Explore Bulk SMS ↗</a></div></article><article className="ga26-product-card"><div className="ga26-product-graphic"><img src="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed938916ce867181d22528_Product_visual-Voice_%26_IVR%5B1%5D.webp" sizes="(max-width: 479px) 100vw, (max-width: 767px) 82vw, (max-width: 1279px) 41vw, 478px" srcSet="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed938916ce867181d22528_Product_visual-Voice_%26_IVR%5B1%5D-p-500.webp 500w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed938916ce867181d22528_Product_visual-Voice_%26_IVR%5B1%5D-p-800.webp 800w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed938916ce867181d22528_Product_visual-Voice_%26_IVR%5B1%5D.webp 956w" alt="Voice and IVR call routing to sales and support" decoding="async" /></div><div className="ga26-product-details"><div className="ga26-product-label"><h3 className="ga26-product-name">Voice &amp; IVR</h3><b>04</b></div><p>Help callers reach the right information or team when a spoken exchange is the better next step.</p><a href="/voice">Explore Voice Solutions ↗</a></div></article></div></section>)
-})
+// const ProductsSection = memo(function ProductsSection() {
+//   return (<section id="ga26-products" className="ga26-products ga26-inset-lines"><div className="ga26-section-head-1"><div className="ga26-eyebrow ga26-center">Messaging solutions</div><h2 className="ga26-title">The right channel for<span className="ga26-serif">every customer moment.</span></h2><p>Explore WhatsApp Business API, RCS Messaging, Bulk SMS and Voice solutions from Infra Infotech.</p></div><div className="ga26-product-grid"><article className="ga26-product-card"><div className="ga26-product-graphic"><img src="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed93de7f4d3dd6159bc3a1_Product_visual-WhatsApp%5B1%5D.webp" sizes="(max-width: 479px) 100vw, (max-width: 767px) 82vw, (max-width: 1279px) 41vw, 478px" srcSet="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed93de7f4d3dd6159bc3a1_Product_visual-WhatsApp%5B1%5D-p-500.webp 500w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed93de7f4d3dd6159bc3a1_Product_visual-WhatsApp%5B1%5D-p-800.webp 800w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed93de7f4d3dd6159bc3a1_Product_visual-WhatsApp%5B1%5D.webp 956w" alt="WhatsApp inbox with a conversation and team assignment" decoding="async" /></div><div className="ga26-product-details"><div className="ga26-product-label"><h3 className="ga26-product-name">WhatsApp Business API</h3><b>01</b></div><p>Bring product questions, service conversations, guided replies, and team handoffs into a channel customers already use.</p><a href="/whatsappapi">Explore WhatsApp Business API ↗</a></div></article><article className="ga26-product-card"><div className="ga26-product-graphic"><img src="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed935516ce867181d21429_Product_visual-RCS_Business_Messaging%5B1%5D.webp" sizes="(max-width: 479px) 100vw, (max-width: 767px) 82vw, (max-width: 1279px) 41vw, 478px" srcSet="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed935516ce867181d21429_Product_visual-RCS_Business_Messaging%5B1%5D-p-500.webp 500w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed935516ce867181d21429_Product_visual-RCS_Business_Messaging%5B1%5D-p-800.webp 800w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed935516ce867181d21429_Product_visual-RCS_Business_Messaging%5B1%5D.webp 956w" alt="RCS campaign with a rich product card and actions" decoding="async" /></div><div className="ga26-product-details"><div className="ga26-product-label"><h3 className="ga26-product-name">RCS Business Messaging</h3><b>02</b></div><p>Use branded, visual messages and interactive actions to help customers explore an offer and respond when something interests them.</p><a href="/rcs">Explore RCS Messaging ↗</a></div></article><article className="ga26-product-card"><div className="ga26-product-graphic"><img src="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed933c15ad05f7cd37d68a_Product_visual-Bulk_SMS%5B1%5D.webp" sizes="(max-width: 479px) 100vw, (max-width: 767px) 82vw, (max-width: 1279px) 41vw, 478px" srcSet="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed933c15ad05f7cd37d68a_Product_visual-Bulk_SMS%5B1%5D-p-500.webp 500w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed933c15ad05f7cd37d68a_Product_visual-Bulk_SMS%5B1%5D-p-800.webp 800w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed933c15ad05f7cd37d68a_Product_visual-Bulk_SMS%5B1%5D.webp 956w" alt="SMS campaign with delivered order update" decoding="async" /></div><div className="ga26-product-details"><div className="ga26-product-label"><h3 className="ga26-product-name">Bulk SMS</h3><b>03</b></div><p>Share alerts, reminders, OTPs, and important updates in a simple format that gets to the point.</p><a href="/bulksms">Explore Bulk SMS ↗</a></div></article><article className="ga26-product-card"><div className="ga26-product-graphic"><img src="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed938916ce867181d22528_Product_visual-Voice_%26_IVR%5B1%5D.webp" sizes="(max-width: 479px) 100vw, (max-width: 767px) 82vw, (max-width: 1279px) 41vw, 478px" srcSet="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed938916ce867181d22528_Product_visual-Voice_%26_IVR%5B1%5D-p-500.webp 500w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed938916ce867181d22528_Product_visual-Voice_%26_IVR%5B1%5D-p-800.webp 800w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed938916ce867181d22528_Product_visual-Voice_%26_IVR%5B1%5D.webp 956w" alt="Voice and IVR call routing to sales and support" decoding="async" /></div><div className="ga26-product-details"><div className="ga26-product-label"><h3 className="ga26-product-name">Voice &amp; IVR</h3><b>04</b></div><p>Help callers reach the right information or team when a spoken exchange is the better next step.</p><a href="/voice">Explore Voice Solutions ↗</a></div></article></div></section>)
+// })
 
 /* ================= SECTION: UseCasesSection ================= */
 const UseCasesSection = memo(function UseCasesSection() {
@@ -332,12 +308,12 @@ const DevelopersSection = memo(function DevelopersSection() {
 
 /* ================= SECTION: FaqSection ================= */
 const FaqSection = memo(function FaqSection() {
-  return (<section id="ga26-faq" className="ga26-faq ga26-inset-lines"><div className="ga26-content ga26-faq-layout"><div><div className="ga26-eyebrow">Frequently asked questions</div><h2 className="ga26-title">Let’s Make This<span className="ga26-serif">clear.</span></h2></div><div className="ga26-faq-list"><details><summary>What is a business messaging platform?</summary><p>A business messaging platform brings customer conversations, campaigns and team workflows together. It helps your business communicate through channels such as WhatsApp, RCS, SMS and Voice, with the context your team needs to respond.</p></details><details><summary>Can developers integrate Telinfy with existing tools?</summary><p>Yes. Telinfy APIs and webhooks can connect messaging to supported business systems and workflows.</p></details><details><summary>Can I start with just one channel?</summary><p>Yes. You can start with one channel and add channels as your customer communication needs grow.</p></details><details><summary>Does GreenAds provide WhatsApp Business API in India?</summary><p>Yes. GreenAds Global helps businesses use the official WhatsApp Business API in India.</p></details><details><summary>How do RCS and SMS work together?</summary><p>RCS supports branded, interactive experiences on compatible devices; SMS can be used for essential text messages and broader compatibility.</p></details></div></div></section>)
+  return (<section id="ga26-faq" className="ga26-faq ga26-inset-lines"><div className="ga26-content ga26-faq-layout"><div><div className="ga26-eyebrow">Frequently asked questions</div><h2 className="ga26-title">Let’s Make This<span className="ga26-serif">clear.</span></h2></div><div className="ga26-faq-list"><details><summary>What is a business messaging platform?</summary><p>A business messaging platform brings customer conversations, campaigns and team workflows together. It helps your business communicate through channels such as WhatsApp, RCS, SMS and Voice, with the context your team needs to respond.</p></details><details><summary>Can developers integrate Telinfy with existing tools?</summary><p>Yes. Telinfy APIs and webhooks can connect messaging to supported business systems and workflows.</p></details><details><summary>Can I start with just one channel?</summary><p>Yes. You can start with one channel and add channels as your customer communication needs grow.</p></details><details><summary>Does Infra Infotech provide WhatsApp Business API in India?</summary><p>Yes. Infra Infotech Private Limited helps businesses use the official WhatsApp Business API in India.</p></details><details><summary>How do RCS and SMS work together?</summary><p>RCS supports branded, interactive experiences on compatible devices; SMS can be used for essential text messages and broader compatibility.</p></details></div></div></section>)
 })
 
 /* ================= SECTION: ContactSection ================= */
 const ContactSection = memo(function ContactSection() {
-  return (<section id="ga26-contact" className="ga26-contact ga26-inset-lines"><div className="ga26-eyebrow ga26-center">The next conversation starts here</div><h2 className="ga26-title">Let’s make your next{" "}<span className="ga26-serif">hello. matter.</span></h2><p>Bring us the customer moment you want to improve. We’ll show you what a connected conversation can do.</p><div className="ga26-buttons"><a href="/contact" className="ga26-btn">Start a free trial ↗</a><a href="/contact" className="ga26-btn ga26-mint">Book a conversation ↗</a></div><div id="ga26-team" aria-label="GreenAds team" className="ga26-team-portraits"><img src={IMG.i28} alt="GreenAds team member" decoding="async" /><img src={IMG.i29} alt="GreenAds team member" decoding="async" /><img src={IMG.i30} alt="GreenAds team member" decoding="async" /><img src={IMG.i31} alt="GreenAds team member" decoding="async" /><img src={IMG.i32} alt="GreenAds team member" decoding="async" /><img src={IMG.i33} alt="GreenAds team member" decoding="async" /><img src={IMG.i34} alt="GreenAds team member" decoding="async" /></div><div className="ga26-team-caption">The GreenAds Team Is Here To Help Make Your Next Conversation Count.</div></section>)
+  return (<section id="ga26-contact" className="ga26-contact ga26-inset-lines"><div className="ga26-eyebrow ga26-center">The next conversation starts here</div><h2 className="ga26-title">Let’s make your next{" "}<span className="ga26-serif">hello. matter.</span></h2><p>Bring us the customer moment you want to improve. We’ll show you what a connected conversation can do.</p><div className="ga26-buttons"><a href="/contact" className="ga26-btn">Start a free trial ↗</a><a href="/contact" className="ga26-btn ga26-mint">Book a conversation ↗</a></div><div id="ga26-team" aria-label="Infra Infotech team" className="ga26-team-portraits"><img src={IMG.i28} alt="Infra Infotech team member" decoding="async" /><img src={IMG.i29} alt="Infra Infotech team member" decoding="async" /><img src={IMG.i30} alt="Infra Infotech team member" decoding="async" /><img src={IMG.i31} alt="Infra Infotech team member" decoding="async" /><img src={IMG.i32} alt="Infra Infotech team member" decoding="async" /><img src={IMG.i33} alt="Infra Infotech team member" decoding="async" /><img src={IMG.i34} alt="Infra Infotech team member" decoding="async" /></div><div className="ga26-team-caption">The Infra Infotech Team Is Here To Help Make Your Next Conversation Count.</div></section>)
 })
 
 
@@ -522,6 +498,12 @@ function useInteractions(rootRef) {
   }, [rootRef])
 }
 
+/* ================= SECTION: TrustSection ================= */
+const TrustSection = memo(function TrustSection() {
+  return (<section aria-label="Awards and credentials" className="ga26-trust-1 ga26-inset-lines"><div className="ga26-awards"><div><div className="ga26-award-crest"><img src={IMG.i19} alt="Meffys award image" decoding="async" /></div><h3>WINNER– MEFFYS<br />Awards 2024</h3><p>Enterprise Messaging Category</p></div><div><div className="ga26-award-crest"><img src={IMG.i20} alt="Meta partner image" decoding="async" /></div><h3>Official Meta<br />Tech Partner</h3></div><div><div className="ga26-award-crest"><img src={IMG.i21} alt="Google RBM partner image" decoding="async" /></div><h3>Google RBM Partners</h3><p>Asia Pacific | Africa | Middle East</p></div></div><div className="ga26-certifications"><span>Trusted By{" "}<strong>10,000+</strong>{" "}Businesses</span><span><img src={IMG.i22} alt="SOC2 Certified" decoding="async" />SOC2 Certified</span><span><img src={IMG.i23} alt="DPDP-Compliant Platform" decoding="async" />DPDP-Compliant Platform</span><span><img src={IMG.i24} alt="ISO Certified" decoding="async" />ISO Certified</span></div></section>)
+})
+
+
 /* ---------------------------------------------------------------------
    App
    --------------------------------------------------------------------- */
@@ -536,13 +518,13 @@ export default function App() {
       <div id="ga26-homepage" className="ga26-root" style={{ "--nav-height": "78px" }} ref={rootRef}>
         <div aria-hidden="true" className="ga26-style-index" />
         <HeroSection />
-        <TrustSection />
-        <ProductsSection />
+        {/* <ProductsSection /> */}
         <UseCasesSection />
         <JourneySection />
         <TelinfySection />
         <FluffySection />
         <DevelopersSection />
+        <TrustSection />
         <FaqSection />
         <ContactSection />
       </div>

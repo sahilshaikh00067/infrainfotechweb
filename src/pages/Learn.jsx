@@ -198,7 +198,7 @@ export default function Learn() {
 
                                     <Link
                                         to={item.link}
-                                        className="inline-flex items-center ml-4 gap-2 mt-6 text-[#307eba] font-semibold hover:gap-4 transition-all duration-300"
+                                        className="inline-flex items-center ml-2 mb-9 gap-2  text-[#307eba] font-bold hover:gap-4 transition-all duration-300"
                                     >
                                         Learn More
                                         <span>→</span>
@@ -213,9 +213,8 @@ export default function Learn() {
             </section>
 
             {/* LEARN DOWN SECTION */}
-            <div className=" m-15 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            {/* <div className=" m-15 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-                {/* LEFT IMAGE */}
                 <div className="relative">
                     <div className="absolute inset-0 bg-[#177a63]/10 blur-3xl rounded-full"></div>
 
@@ -226,7 +225,6 @@ export default function Learn() {
                     />
                 </div>
 
-                {/* RIGHT CONTENT */}
                 <div>
 
                     <span className="inline-block px-5 py-2 bg-[#f1f7f8] text-[#307eba] font-semibold uppercase tracking-wide text-sm rounded-sm">
@@ -244,7 +242,6 @@ export default function Learn() {
                         connected effortlessly.
                     </p>
 
-                    {/* BUTTON */}
                     <div className="mt-10">
                         <Link
                             to="/contact"
@@ -256,15 +253,15 @@ export default function Learn() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
+
+            <Carousel />
 
 
 
-
-            <section className="bg-white py-11 lg:py-8">
+            {/* <section className="bg-white py-11 lg:py-8">
                 <div className="max-w-8xl mx-auto px-2 lg:px-8">
 
-                    {/* Heading */}
                     <div className="text-center max-w-5xl mx-auto mb-2">
                         <span className="inline-block bg-[#e7effa] text-[#5497cb] px-4 py-1 rounded-sm text-sm font-semibold uppercase tracking-wide mb-6">
                             Omnichannel Customer Engagement
@@ -281,7 +278,6 @@ export default function Learn() {
                         </p>
                     </div>
 
-                    {/* Image */}
                     <div className="flex justify-center">
                         <img
                             src={extra1}
@@ -291,17 +287,15 @@ export default function Learn() {
                     </div>
 
                 </div>
-            </section>
+            </section> */}
 
 
 
-            <section className="bg-white py-20 lg:py-28 overflow-hidden">
+            {/* <section className="bg-white py-20 lg:py-28 overflow-hidden">
                 <div className="max-w-7xl mx-auto px-6 lg:px-8">
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
 
-                        {/* Left Content */}
                         <div>
-                            {/* Badge */}
                             <div className="inline-flex items-center gap-3 px-5 py-3 border border-gray-200 rounded-full mb-8">
                                 <svg
                                     className="w-5 h-5 text-blue-400"
@@ -316,12 +310,10 @@ export default function Learn() {
                                 </span>
                             </div>
 
-                            {/* Heading */}
                             <h2 className="text-4xl md:text-5xl font-semibold text-[#111827] leading-tight mb-8">
                                 Seamlessly integrate the tools you already love
                             </h2>
 
-                            {/* Description */}
                             <p className="text-[17px] text-gray-500 leading-relaxed mb-4 max-w-2xl">
                                 Unlock limitless collaboration possibilities with our powerful
                                 integration capabilities. Our APIs seamlessly connect with CRM
@@ -331,7 +323,6 @@ export default function Learn() {
                                 applications.
                             </p>
 
-                            {/* Button */}
                             <Link
                                 to="/contact"
                                 className="inline-flex items-center justify-center px-7 py-3 bg-[#4785b1] hover:bg-[#29638c] text-white font-medium text-[16px] rounded-xl transition-all duration-300"
@@ -340,7 +331,6 @@ export default function Learn() {
                             </Link>
                         </div>
 
-                        {/* Right Image */}
                         <div className="flex justify-center lg:justify-end">
                             <img
                                 src={extra2}
@@ -351,17 +341,14 @@ export default function Learn() {
 
                     </div>
                 </div>
-            </section>
-            <Carousel />
+            </section> */}
 
 
 
-            {/* INTEGRATIONS SECTION */}
-            <div className="w-full bg-blue-100 py-16 px-6 md:px-14">
+            {/* <div className="w-full bg-blue-100 py-16 px-6 md:px-14">
 
                 <div className="grid grid-cols-1 lg:grid-cols-[35%_60%] gap-25 items-center">
 
-                    {/* LEFT IMAGE */}
                     <div className="relative">
                         <div className="absolute inset-0 bg-[#307eba]/10 blur-3xl rounded-full"></div>
 
@@ -372,7 +359,6 @@ export default function Learn() {
                         />
                     </div>
 
-                    {/* RIGHT CONTENT */}
                     <div>
 
                         <span className="inline-block px-5 py-2 bg-[#a4cdf4] text-[#307eba] font-semibold uppercase tracking-wide text-sm rounded-sm">
@@ -392,7 +378,6 @@ export default function Learn() {
                             Automate workflows, sync data, and manage customer interactions—all from one unified platform.
                         </p>
 
-                        {/* BUTTON */}
                         <div className="mt-10">
                             <Link
                                 to="/contact"
@@ -405,31 +390,26 @@ export default function Learn() {
 
                     </div>
                 </div>
-            </div>
-            
+            </div> */}
 
-            <section className="bg-white py-11 px-2 md:px-16">
+
+            {/* <section className="bg-white py-11 px-2 md:px-16">
                 <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-                    {/* LEFT CONTENT */}
                     <div>
-                        {/* TAG */}
                         <span className="inline-block px-4 py-1.5 bg-[#dbe8f8] text-[#4079ad] font-semibold uppercase tracking-wide text-[14px] rounded-sm">
                             PARTNER WITH US
                         </span>
 
-                        {/* HEADING */}
                         <h2 className="mt-6 text-5xl md:text-[2.1rem] font-normal text-black leading-tight">
                             Looking to Grow Your Business Opportunities? Let's Grow Together!
                         </h2>
 
-                        {/* SUB TEXT */}
                         <p className="mt-5 text-[#0c0c15] text-base leading-relaxed">
                             Whether you are looking for a secure on-premises setup, a white-label reselling
                             opportunity, or a rewarding partnership, we have got the perfect solution for you.
                         </p>
 
-                        {/* ACCORDION */}
                         <div className="mt-8 divide-y  divide-gray-500 border-t border-gray-500">
                             {accordionData.map((item, i) => (
                                 <div key={i} className="py-5">
@@ -462,7 +442,6 @@ export default function Learn() {
                                         </span>
                                     </button>
 
-                                    {/* CONTENT */}
                                     <div
                                         className={`overflow-hidden transition-all duration-400 ease-in-out ${openIndex === i ? "max-h-60 opacity-100 mt-3" : "max-h-0 opacity-0"
                                             }`}
@@ -476,9 +455,7 @@ export default function Learn() {
                         </div>
                     </div>
 
-                    {/* RIGHT IMAGE */}
                     <div className="relative flex justify-center">
-                        {/* Soft glow behind image */}
                         <div className="absolute inset-0 bg-[#177a63]/10 blur-3xl rounded-full scale-90"></div>
 
                         <img
@@ -489,10 +466,10 @@ export default function Learn() {
                     </div>
 
                 </div>
-            </section>
+            </section> */}
 
 
-            <section
+            {/* <section
                 className="w-full px-6 md:px-16 flex items-center"
                 style={{
                     background: "linear-gradient(105deg, #1a1a3e 0%, #2d1b5e 5%, #3b2070 10%, #1e3a5f 60%)",
@@ -501,12 +478,10 @@ export default function Learn() {
             >
                 <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-                    {/* LEFT - CODE BLOCK */}
                     <div
                         className="rounded-2xl overflow-hidden shadow-2xl border border-white/10"
                         style={{ background: "#111111" }}
                     >
-                        {/* TABS */}
                         <div className="flex items-center gap-1 px-5 pt-5 pb-3">
                             {tabs.map((tab) => (
                                 <button
@@ -522,7 +497,6 @@ export default function Learn() {
                             ))}
                         </div>
 
-                        {/* CODE */}
                         <div className="px-6 pb-8 pt-2 overflow-x-auto">
                             <pre className="text-sm leading-7 font-mono whitespace-pre-wrap">
                                 {codeSnippets[activeTab].split("\n").map((line, i) => {
@@ -548,7 +522,6 @@ export default function Learn() {
                         </div>
                     </div>
 
-                    {/* RIGHT - TEXT CONTENT */}
                     <div>
                         <h2 className="text-5xl md:text-4xl font-semibold text-white leading-tight">
                             Developer API Documentation
@@ -573,7 +546,7 @@ export default function Learn() {
                     </div>
 
                 </div>
-            </section>
+            </section> */}
 
         </>
     );

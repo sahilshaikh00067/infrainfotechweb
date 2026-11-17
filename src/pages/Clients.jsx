@@ -91,7 +91,7 @@ const Clients = () => {
 
         {/* TOP TEXT */}
         <div className="text-center relative z-20">
-          <p className="text-[15px] md:text-[17px] uppercase tracking-[2px] text-[#6d6b8b] font-semibold leading-relaxed">
+          <p className="text-[18px] md:text-[24px] uppercase tracking-[2px] text-[#1c1c1f] font-semibold leading-relaxed">
             Trusted by 5,000+ businesses for RCS Messaging,
             WhatsApp Business API, Bulk SMS, and Voice Solutions
           </p>
@@ -156,7 +156,14 @@ const Clients = () => {
 
 
 
-        <div className="mt-5 relative z-20">
+
+
+
+
+
+
+
+        {/* <div className="mt-5 relative z-20">
 
           <section className="max-w-7xl mx-auo px-4 md:px-0  py-6">
             <div className="grid lg:grid-cols-2 gap-10 items-center">
@@ -177,7 +184,6 @@ const Clients = () => {
                 ))}
               </div>
 
-              {/* Right Side Image */}
               <div className="flex justify-center">
                 <img
                   src={vid}
@@ -190,7 +196,7 @@ const Clients = () => {
           </section>
 
 
-        </div>
+        </div> */}
       </div>
     </section>
   );
