@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useMemo, useCallback, memo } from "react"
+import Learn from "./Learn"
 
 
 /* =====================================================================
@@ -243,8 +244,56 @@ function CaseShowcase() {
 
 /* ================= SECTION: HeroSection ================= */
 const HeroSection = memo(function HeroSection() {
-  return (<section id="ga26-home" data-section="hero" className="ga26-hero-1 ga26-inset-lines"><div className="ga26-hero-core"><div className="ga26-hero-message"><div className="ga26-eyebrow">Business messaging, connected</div><h1>Every hello.<span className="ga26-serif">New Possibilities</span></h1><div className="ga26-hero-buttons"><a href="/contact" className="ga26-btn">Book a demo ↗</a><a href="/contact" className="ga26-btn ga26-white">Explore the platform ↗</a></div><p className="ga26-hero-description">Every customer conversation can go somewhere. Bring{" "}<strong>WhatsApp Business API, RCS Messaging, Bulk SMS, Voice and AI Agent</strong>{" "}together in one intelligent business messaging platform.</p></div><div aria-label="Product messaging channels overview" className="ga26-hero-gallery"><img src="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D.webp" sizes="(max-width: 479px) 100vw, (max-width: 767px) 86vw, (max-width: 991px) 81vw, (max-width: 1279px) 42vw, (max-width: 1439px) 41vw, (max-width: 1919px) 42vw, 46vw" srcSet="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D-p-500.webp 500w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D-p-800.webp 800w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D-p-1080.webp 1080w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D.webp 1164w" alt="WhatsApp, SMS, RCS, Voice and AI connected in one conversation" decoding="async" /></div></div><div aria-label="Selected brands" className="ga26-customer-strip"><div className="ga26-logo-marquee"><div className="ga26-logo-track"><div className="ga26-logo-group"><span className="ga26-client-logo"><img src={IMG.i12} alt="Poorvika" decoding="async" /></span><span className="ga26-client-logo"><img src={IMG.i13} alt="TVS" decoding="async" /></span><span className="ga26-client-logo"><img src={IMG.i14} alt="Kalyan Silks" decoding="async" /></span><span className="ga26-client-logo"><img src={IMG.i15} alt="Hero" decoding="async" /></span><span className="ga26-client-logo"><img src={IMG.i16} alt="myG" decoding="async" /></span><span className="ga26-client-logo"><img src={IMG.i17} alt="Bhima" decoding="async" /></span><span className="ga26-client-logo"><img src={IMG.i18} alt="Renault" decoding="async" /></span></div><div aria-hidden="true" className="ga26-logo-group"><span className="ga26-client-logo"><img src={IMG.i12} alt="" decoding="async" /></span><span className="ga26-client-logo"><img src={IMG.i13} alt="" decoding="async" /></span><span className="ga26-client-logo"><img src={IMG.i14} alt="" decoding="async" /></span><span className="ga26-client-logo"><img src={IMG.i15} alt="" decoding="async" /></span><span className="ga26-client-logo"><img src={IMG.i16} alt="" decoding="async" /></span><span className="ga26-client-logo"><img src={IMG.i17} alt="" decoding="async" /></span><span className="ga26-client-logo"><img src={IMG.i18} alt="" decoding="async" /></span></div></div></div></div></section>)
+  return (
+    <>
+      <section id="ga26-home" data-section="hero" className="ga26-hero-1 ga26-inset-lines">
+        <div className="ga26-hero-core">
+          <div className="ga26-hero-message">
+            <div className="ga26-eyebrow">Business messaging, connected</div>
+            <h1>Every hello.<span className="ga26-serif">New Possibilities</span>
+            </h1><div className="ga26-hero-buttons"><a href="/contact" className="ga26-btn">Book a demo ↗</a>
+              <a href="/contact" className="ga26-btn ga26-white">Explore the platform ↗</a>
+            </div>
+            <p className="ga26-hero-description">Every customer conversation can go somewhere. Bring{" "}<strong>WhatsApp Business API, RCS Messaging, Bulk SMS, Voice and AI Agent</strong>{" "}together in one intelligent business messaging platform.</p>
+          </div>
+          <div aria-label="Product messaging channels overview" className="ga26-hero-gallery">
+            <img src="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D.webp" sizes="(max-width: 479px) 100vw, (max-width: 767px) 86vw, (max-width: 991px) 81vw, (max-width: 1279px) 42vw, (max-width: 1439px) 41vw, (max-width: 1919px) 42vw, 46vw" srcSet="https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D-p-500.webp 500w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D-p-800.webp 800w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D-p-1080.webp 1080w, https://cdn.prod.website-files.com/67b5920c234f2b2e736198a6/6aed90b185773c25ba25d1de_hero-section-image%5B1%5D.webp 1164w" alt="WhatsApp, SMS, RCS, Voice and AI connected in one conversation" decoding="async" /></div></div><div aria-label="Selected brands" className="ga26-customer-strip"><div className="ga26-logo-marquee">
+              <div className="ga26-logo-track">
+                <div className="ga26-logo-group">
+                  <span className="ga26-client-logo">
+                    <img src={IMG.i12} alt="Poorvika" decoding="async" />
+                  </span>
+                  <span className="ga26-client-logo">
+                    <img src={IMG.i13} alt="TVS" decoding="async" />
+                  </span><span className="ga26-client-logo">
+                    <img src={IMG.i14} alt="Kalyan Silks" decoding="async" />
+                  </span><span className="ga26-client-logo"><img src={IMG.i15} alt="Hero" decoding="async" />
+                  </span><span className="ga26-client-logo"><img src={IMG.i16} alt="myG" decoding="async" /></span>
+                  <span className="ga26-client-logo"><img src={IMG.i17} alt="Bhima" decoding="async" /></span>
+                  <span className="ga26-client-logo"><img src={IMG.i18} alt="Renault" decoding="async" /></span>
+                </div>
+                <div aria-hidden="true" className="ga26-logo-group"><span className="ga26-client-logo">
+                  <img src={IMG.i12} alt="" decoding="async" /></span><span className="ga26-client-logo">
+                    <img src={IMG.i13} alt="" decoding="async" /></span><span className="ga26-client-logo">
+                    <img src={IMG.i14} alt="" decoding="async" /></span><span className="ga26-client-logo">
+                    <img src={IMG.i15} alt="" decoding="async" /></span><span className="ga26-client-logo">
+                    <img src={IMG.i16} alt="" decoding="async" /></span><span className="ga26-client-logo">
+                    <img src={IMG.i17} alt="" decoding="async" /></span><span className="ga26-client-logo">
+                    <img src={IMG.i18} alt="" decoding="async" />
+                  </span>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <Learn />
+
+    </>
+  )
+
 })
+
 
 /* ================= SECTION: TrustSection ================= */
 const TrustSection = memo(function TrustSection() {
