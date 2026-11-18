@@ -102,7 +102,7 @@ export default function Learn() {
             bg: "bg-[#d4e5f5]",
         },
         {
-            title: "Bulk SMS",
+            title: "A2P Messaging",
             desc: "Send instant, reliable, and high-volume messages for alerts, promotions and transactional updates",
             image: bulksms,
             hover: bulksmsHover,

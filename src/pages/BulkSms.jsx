@@ -168,10 +168,10 @@ const checkpoints = [
 
 const faqs = [
     {
-        question: "What is Bulk SMS?",
-        answer: `Bulk SMS is a messaging service that allows businesses to send large volumes of SMS messages to multiple recipients at once. It is commonly used for marketing campaigns, alerts, OTPs, reminders, and customer notifications.
+        question: "What is A2P Messaging?",
+        answer: `A2P Messaging is a messaging service that allows businesses to send large volumes of SMS messages to multiple recipients at once. It is commonly used for marketing campaigns, alerts, OTPs, reminders, and customer notifications.
 
-Unlike regular one-to-one texting, Bulk SMS enables you to reach hundreds or thousands of customers instantly through a secure and scalable platform.
+Unlike regular one-to-one texting, A2P Messaging enables you to reach hundreds or thousands of customers instantly through a secure and scalable platform.
 
 Key Features:
 • Send messages to thousands of numbers in seconds
@@ -179,19 +179,19 @@ Key Features:
 • Delivers to all mobile devices, even without internet
 • Easily integrated with websites, CRMs, or mobile apps
 
-Bulk SMS is widely used by businesses in e-commerce, finance, education, healthcare, logistics, and more to improve customer engagement and deliver time-sensitive information effectively.`,
+A2P Messaging is widely used by businesses in e-commerce, finance, education, healthcare, logistics, and more to improve customer engagement and deliver time-sensitive information effectively.`,
     },
 
     {
-        question: "Can I send bulk SMS for free?",
-        answer: `Technically, no. While some platforms offer free trial credits, sending bulk SMS at scale always involves costs, especially for promotional or transactional messages through operator-approved routes.
+        question: "Can I send A2P Messaging for free?",
+        answer: `Technically, no. While some platforms offer free trial credits, sending A2P Messaging at scale always involves costs, especially for promotional or transactional messages through operator-approved routes.
 
-Free methods often violate telecom regulations and can lead to message blocking or penalties. Always choose a licensed Bulk SMS provider to ensure compliance, delivery, and data security.`,
+Free methods often violate telecom regulations and can lead to message blocking or penalties. Always choose a licensed A2P Messaging provider to ensure compliance, delivery, and data security.`,
     },
 
     {
-        question: "How can businesses benefit from Bulk SMS?",
-        answer: `Bulk SMS offers several powerful advantages:
+        question: "How can businesses benefit from A2P Messaging?",
+        answer: `A2P Messaging offers several powerful advantages:
 
 1. Instant Delivery
 Messages are delivered within seconds.
@@ -216,8 +216,8 @@ Track delivery and campaign performance with detailed reports.`,
     },
 
     {
-        question: "Is Bulk SMS legal?",
-        answer: `Yes, Bulk SMS is legal when used in compliance with telecom regulations and data privacy laws.
+        question: "Is A2P Messaging legal?",
+        answer: `Yes, A2P Messaging is legal when used in compliance with telecom regulations and data privacy laws.
 
 In India, businesses must:
 
@@ -226,12 +226,12 @@ In India, businesses must:
 • Use approved sender IDs and templates
 • Respect DND regulations
 
-When used responsibly, Bulk SMS is a highly effective and lawful communication channel.`,
+When used responsibly, A2P Messaging is a highly effective and lawful communication channel.`,
     },
 
     {
-        question: "What industries benefit from Bulk SMS?",
-        answer: `Bulk SMS is widely used across many industries:
+        question: "What industries benefit from A2P Messaging?",
+        answer: `A2P Messaging is widely used across many industries:
 
 • E-commerce & Retail
 • Banking & Finance
@@ -246,10 +246,10 @@ It helps improve customer engagement, reduce no-shows, and deliver important inf
     },
 
     {
-        question: "How can I get started with bulk SMS for my business?",
+        question: "How can I get started with A2P Messaging for my business?",
         answer: `Getting started is simple:
 
-1. Choose a trusted Bulk SMS provider like Infra Infotech.
+1. Choose a trusted A2P Messaging provider like Infra Infotech.
 2. Complete DLT registration.
 3. Recharge your account.
 4. Create approved templates.
@@ -262,7 +262,7 @@ We provide complete DLT support, template approval, campaign tools, analytics, a
         question: "What is DLT registration?",
         answer: `DLT (Distributed Ledger Technology) registration is a mandatory process introduced by TRAI to regulate commercial SMS communication and prevent spam.
 
-All businesses sending bulk SMS in India must complete DLT registration before sending promotional or transactional messages.`,
+All businesses sending A2P Messaging in India must complete DLT registration before sending promotional or transactional messages.`,
     },
 
     {
@@ -379,12 +379,12 @@ export default function BulkSms() {
                     {/* LEFT SIDE */}
                     <div>
                         <h1 className="text-3xl md:text-[42px] font-medium text-gray-900 leading-tight mb-6">
-                            Top Rated Bulk SMS Service Provider in India: <br />
+                            Top Rated A2P Messaging Service Provider in India: <br />
                             Send Instant Alerts, Updates & Promotions
                         </h1>
                         <p className="text-gray-700 text-[17px] leading-relaxed mb-6">
-                            Looking for a trusted bulk SMS service provider?
-                            We can help you instantly connect with your customers through our powerful bulk SMS platform.
+                            Looking for a trusted A2P Messaging service provider?
+                            We can help you instantly connect with your customers through our powerful A2P Messaging platform.
                             Deliver alerts, updates, and promotions at scale with high-speed delivery and real-time tracking—built for businesses of all sizes.
                         </p>
                         <p className="text-gray-700 text-[19px] font-medium leading-relaxed mb-6">
@@ -405,18 +405,18 @@ export default function BulkSms() {
                     <div className="w-full">
                         <img
                             src={bulksms1}
-                            alt="Bulk SMS Platform"
+                            alt="A2P Messaging Platform"
                             className="w-full h-auto object-cover rounded-2xl"
                         />
                     </div>
                 </div>
             </section>
 
-            {/* ===================== "HOW BRANDS USE BULK SMS" AUTO SLIDER ===================== */}
+            {/* ===================== "HOW BRANDS USE A2P Messaging" AUTO SLIDER ===================== */}
             <section className="py-6 md:py-12 overflow-hidden bg-white">
                 <div className="max-w-9xl mx-15 mb-10 px-2 md:px-11">
                     <h2 className="text-2xl md:text-4xl pb-10 font-semibold text-center">
-                        How Brands Use Bulk SMS to Engage Customers
+                        How Brands Use A2P Messaging to Engage Customers
                     </h2>
                 </div>
 
@@ -459,7 +459,7 @@ export default function BulkSms() {
                         {/* Left Side */}
                         <div>
                             <span className="inline-block bg-[#d7ebef] text-[#1d507a] text-sm font-semibold uppercase px-4 py-2 mb-8">
-                                BULK SMS SERVICE PROVIDER
+                                A2P Messaging SERVICE PROVIDER
                             </span>
 
                             <h2 className="text-8xl md:text-4xl lg:text-4xl font-semibold text-black leading-tight mb-10">
@@ -469,7 +469,7 @@ export default function BulkSms() {
                             </h2>
 
                             <p className="text-gray-700 text-lg md:text-[17px] leading-relaxed mb-12 ">
-                                As a trusted bulk SMS service provider, we deliver powerful
+                                As a trusted A2P Messaging service provider, we deliver powerful
                                 messaging infrastructure with real-time delivery reports,
                                 smart failover routing, and seamless connectivity across
                                 multiple operators. Our scalable platform ensures consistent
@@ -524,7 +524,7 @@ export default function BulkSms() {
 
                     {/* Heading */}
                     <h2 className="text-4xl md:text-4xl font-semibold text-center text-black mb-20">
-                        Why Businesses Choose Us as Their Bulk SMS Service Provider
+                        Why Businesses Choose Us as Their A2P Messaging Service Provider
                     </h2>
 
                     {/* Features Grid */}
@@ -564,7 +564,7 @@ export default function BulkSms() {
 
                     {/* Heading */}
                     <h2 className="text-4xl md:text-3xl font-medium text-center text-black mb-16">
-                        Industries We Serve with Bulk SMS Solutions
+                        Industries We Serve with A2P Messaging Solutions
                     </h2>
 
                     {/* Cards Grid */}
@@ -606,7 +606,7 @@ export default function BulkSms() {
                     {/* ===== TOP: WHY WE ARE THE RIGHT CHOICE ===== */}
                     <div className="mb-15">
                         <h2 className="text-2xl md:text-[40px] font-semibold text-gray-900 mb-10">
-                            Why We Are the Right Choice for Your Bulk SMS Campaign
+                            Why We Are the Right Choice for Your A2P Messaging Campaign
                         </h2>
 
                         <ul className="flex flex-col gap-7">
@@ -636,12 +636,12 @@ export default function BulkSms() {
                         {/* LEFT: Quote + contact */}
                         <div >
                             <h2 className="text-2xl md:text-4xl font-semibold text-gray-900 leading-snug mb-6">
-                                If your marketing strategy doesn't include mobile and bulk SMS, your plans aren't complete !
+                                If your marketing strategy doesn't include mobile and A2P Messaging, your plans aren't complete !
                             </h2>
 
                             <p className="text-gray-500 text-[15px] leading-relaxed mb-8">
-                                Infra Infotechis a pioneer in the SMS industry and we know what we do. Our Bulk SMS services are
-                                tailor made for various types of business and are highly reliable. Act smart and go the bulk sms way to
+                                Infra Infotechis a pioneer in the SMS industry and we know what we do. Our A2P Messaging services are
+                                tailor made for various types of business and are highly reliable. Act smart and go the A2P Messaging way to
                                 stand ahead in competition.
                             </p>
 
@@ -688,7 +688,7 @@ export default function BulkSms() {
                         <div className="w-full flex justify-center">
                             <img
                                 src={bulksms23}
-                                alt="Bulk SMS Marketing"
+                                alt="A2P Messaging Marketing"
                                 className="w-full max-w-[500px] h-auto object-cover rounded-2xl"
                             />
                         </div>

@@ -339,7 +339,7 @@ export default function RCS() {
                     <div className="w-full">
                         <img
                             src={rcs1}
-                            alt="Bulk SMS Platform"
+                            alt="A2P Messaging Platform"
                             className="w-full h-auto object-cover rounded-2xl"
                         />
                     </div>
@@ -351,7 +351,7 @@ export default function RCS() {
                 <div className="text-center relative z-20">
                     <p className="text-[15px] md:text-[17px] uppercase tracking-[2px] text-[#6d6b8b] font-semibold leading-relaxed">
                         Trusted by 5,000+ businesses for RCS Messaging,
-                        WhatsApp Business API, Bulk SMS, and Voice Solutions
+                        WhatsApp Business API, A2P Messaging, and Voice Solutions
                     </p>
                 </div>
 
@@ -398,7 +398,7 @@ export default function RCS() {
                 <div className="max-w-7xl mx-auto px-6">
 
                     <h2 className="text-4xl font-semibold text-center mb-14">
-                        How Brands Use Bulk SMS to Engage Customers
+                        How Brands Use A2P Messaging to Engage Customers
                     </h2>
 
                     <div className="relative overflow-hidden">

@@ -152,7 +152,7 @@ const LeadPopup = () => {
                             >
                                 <option value="">Select Service</option>
                                 <option>WhatsApp API</option>
-                                <option>Bulk SMS</option>
+                                <option>A2P Messaging</option>
                                 <option>RCS Messaging</option>
                                 <option>Voice Call</option>
                                 <option>Email Marketing</option>

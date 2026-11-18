@@ -89,7 +89,7 @@ const solutions = [
     image: about8,
   },
   {
-    title: "Bulk SMS",
+    title: "A2P Messaging",
     description:
       "Send instant, reliable, and high-volume messages for alerts, promotions, and transactional updates",
     image: about9,
@@ -196,7 +196,7 @@ const About = () => {
             </h1>
             <p className="text-gray-700 text-lg leading-relaxed max-w-xl mb-8">
               Infra Infotechprovides top-notch communication solutions. With
-              our RCS messaging, WhatsApp API, Bulk SMS, and Voice calls, we
+              our RCS messaging, WhatsApp API, A2P Messaging, and Voice calls, we
               help businesses reach their audiences easily and effectively.
               Let&apos;s make communication simpler together.
             </p>

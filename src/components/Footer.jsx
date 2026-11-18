@@ -37,7 +37,7 @@ export default function Footer() {
               <li><Link to="/rcs" className="text-gray-600 text-sm hover:text-black transition-colors duration-200">RCS Messaging</Link></li>
               <li><Link to="/whatsappapi" className="text-gray-600 text-sm hover:text-black transition-colors duration-200">WhatsApp API</Link></li>
               <li><Link to="/voice" className="text-gray-600 text-sm hover:text-black transition-colors duration-200">Voice Solutions</Link></li>
-              <li><Link to="/bulksms" className="text-gray-600 text-sm hover:text-black transition-colors duration-200">Bulk SMS</Link></li>
+              <li><Link to="/bulksms" className="text-gray-600 text-sm hover:text-black transition-colors duration-200">A2P Messaging</Link></li>
               <li><Link to="/multi-channel" className="text-gray-600 text-sm hover:text-black transition-colors duration-200">Enterprise Messaging Service</Link></li>
             </ul>
           </div>
@@ -156,8 +156,8 @@ export default function Footer() {
           ))}
         </p>
         <p>
-          <span className="font-semibold text-black">Bulk SMS –</span>{" "}
-          {["Bulk SMS Service Provider", "Bulk SMS Service", "SMS Pricing"].map((item, i, arr) => (
+          <span className="font-semibold text-black">A2P Messaging –</span>{" "}
+          {["A2P Messaging Service Provider", "A2P Messaging Service", "SMS Pricing"].map((item, i, arr) => (
             <span key={item}>
               <Link to="/bulksms" className="hover:underline">{item}</Link>
               {i < arr.length - 1 && <span className="mx-1 text-gray-400">|</span>}
@@ -179,7 +179,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-15 mt-6">
         <p className="text-[16px] text-gray-500 leading-relaxed">
           Infra Infotechis one of the leading CPaaS service provider. We offer an array of services such as WhatsApp Business API,
-          WhatsApp Business Cloud API, RCS messaging, Bulk sms, Voice call, Cloud telephony services and many more under one roof.
+          WhatsApp Business Cloud API, RCS messaging, A2P Messaging, Voice call, Cloud telephony services and many more under one roof.
         </p>
       </div>
 

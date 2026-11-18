@@ -29,7 +29,7 @@ import saba from "../assets/Images/saba.avif";
 const products = [
   "WhatsApp Business API",
   "RCS Messaging",
-  "Bulk SMS",
+  "A2P Messaging",
   "Voice Solutions",
   "Chatbot",
   "Multi Channel Messaging",

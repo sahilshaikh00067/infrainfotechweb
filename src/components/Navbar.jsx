@@ -32,7 +32,7 @@ const NAV_GROUPS = {
     image: multic1,
     items: [
       { label: "WhatsApp Business API", icon: FaWhatsapp, link: "/whatsappapi" },
-      { label: "Bulk SMS", icon: FaSms, link: "/bulksms" },
+      { label: "A2P Messaging", icon: FaSms, link: "/bulksms" },
       { label: "RCS Messaging", icon: FaLayerGroup, link: "/rcs" },
       { label: "Voice Solutions", icon: FaMicrophone, link: "/voice" },
       { label: "Chatbot", icon: FaRobot, link: "/chatbot" },

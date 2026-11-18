@@ -93,7 +93,7 @@ const Clients = () => {
         <div className="text-center relative z-20">
           <p className="text-[18px] md:text-[24px] uppercase tracking-[2px] text-[#1c1c1f] font-semibold leading-relaxed">
             Trusted by 5,000+ businesses for RCS Messaging,
-            WhatsApp Business API, Bulk SMS, and Voice Solutions
+            WhatsApp Business API, A2P Messaging, and Voice Solutions
           </p>
         </div>
 
