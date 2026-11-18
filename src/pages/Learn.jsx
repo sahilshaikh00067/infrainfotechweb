@@ -354,7 +354,7 @@ export default function Learn() {
 
                         <img
                             src={ins}
-                            alt="Integrations"
+                            alt="Integrations" 
                             className="relative z-10 w-full object-contain rounded-sm"
                         />
                     </div>

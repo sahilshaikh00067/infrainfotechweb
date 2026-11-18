@@ -120,25 +120,34 @@ export default function Carousel() {
                 </svg>
             </div>
 
+
             {/* Heading */}
-            <div className="relative z-20 text-center mb-12 px-4">
-                <span className="inline-flex items-center px-5 py-2 rounded-full bg-blue-50 border border-blue-200 backdrop-blur-xl text-blue-600 text-sm font-semibold shadow-sm">
+            <div className="relative z-20 mb-12 md:mb-16 w-full px-4 text-center flex flex-col items-center justify-center">
+
+                {/* Integration Badge */}
+                <span className="inline-flex items-center justify-center px-5 py-2 rounded-full bg-blue-50 border border-blue-200 text-blue-600 text-sm font-semibold shadow-sm">
                     Integrations
                 </span>
 
-                <h2 className="mt-5 text-4xl md:text-5xl font-black leading-tight">
-                    <span className="text-slate-900">Connect Every With</span>
+                {/* Main Heading */}
+                <h2 className="mt-5 w-full text-center text-4xl md:text-5xl font-black leading-tight">
+                    <span className="text-slate-900">
+                        Connect Every With
+                    </span>
                     <br />
                     <span className="bg-gradient-to-r from-blue-600 via-cyan-500 to-indigo-600 bg-clip-text text-transparent">
                         Business Tool
                     </span>
                 </h2>
 
-                <p className="mt-6 max-w-2xl mx-auto text-slate-500 text-lg">
+                {/* Description */}
+                <p className="mt-6 mx-auto w-full max-w-2xl text-center text-slate-500 text-base md:text-lg leading-relaxed">
                     Powerful integrations designed to automate workflows,
                     increase engagement and scale your business effortlessly.
                 </p>
+
             </div>
+
 
             {/* Carousel */}
             <div className="relative z-20">

@@ -280,7 +280,7 @@ export default function Chatbot() {
                             At Infra Infotech, we make it easy for you to build a powerful WhatsApp Chatbot using
                             our no-code{" "}
                             <a href="#" className="underline underline-offset-2 hover:opacity-80" style={{ color: BTN_COLOR }}>
-                                Telinfy platform
+                                Infra Infotech platform
                             </a>
                             . Whether you are collecting leads, sharing product info, or providing instant customer
                             support — you can do it all in minutes.
@@ -290,7 +290,7 @@ export default function Chatbot() {
                         <div className="flex flex-col gap-5 text-[15px] leading-relaxed text-gray-700">
                             <div>
                                 <span className="font-semibold text-gray-900">Step 1: Select Your WhatsApp Channel : </span>
-                                Log in to the Telinfy Platform and go to the Channels tab. Pick the WhatsApp account you want to build the bot for.
+                                Log in to the Infra Infotech Platform and go to the Channels tab. Pick the WhatsApp account you want to build the bot for.
                             </div>
                             <div>
                                 <span className="font-semibold text-gray-900">Step 2: Create a New Chatbot : </span>
@@ -399,7 +399,7 @@ export default function Chatbot() {
                             <p className="text-gray-600 text-[16px] leading-relaxed mb-8">
                                 Automate WhatsApp Conversations, From lead generations to customer support—
                                 everything handled through one easy whatsApp chatbot building platform,{" "}
-                                <a href="#" className="underline underline-offset-2 hover:opacity-80" style={{ color: BTN_COLOR }}>telinfy</a>.
+                                <a href="#" className="underline underline-offset-2 hover:opacity-80" style={{ color: BTN_COLOR }}>Infra Infotech</a>.
                             </p>
                             <ul className="flex flex-col gap-4">
                                 {craftPoints.map((point, i) => (
